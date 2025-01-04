@@ -1,0 +1,50 @@
+@import '/src/css/config';
+
+#webdesign {
+    margin-top: 16.9vh;
+    background-color: $light-green;
+    height: 72vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 4.2vw;
+}
+
+h3 {
+    color: $black;
+    font-family: $heading-font;
+    font-size: $h3-desktop-size;
+    font-weight: $heading-weight-black;
+}
+
+.webtext {
+    font-family: $paragraph-font;
+    font-size: $paragraph-desktop-size;
+    font-weight: $paragraph-weight;
+    line-height: 3.4vh;
+    margin-top: 5.1vh;
+    color: $black;
+}
+
+#buttonFlexboxWeb {
+    display: flex;
+    justify-content: center;
+}
+
+#webbutton {
+    margin-top: 5.1vh;
+    width: 50%;
+}
+
+#webbutton Button {
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+    align-self: center;
+}
+
+#webbutton Button:hover {
+    cursor: pointer;
+    background-color: $white;
+    color: $black;
+}

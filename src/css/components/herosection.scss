@@ -1,0 +1,123 @@
+@import '/src/css/config';
+
+#hero-section {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, $dark-green, $main-green, $light-green);
+    background-size: 110% 110%;
+    animation: gradient 12s infinite;
+    overflow-x: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.gradient-background, #grain {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: absolute;
+    z-index: 0;
+}
+
+#grain {
+    opacity: 30%;
+    object-fit: cover;
+}
+
+#hero-content {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#me-picture, h1, #golden-ticket, #experience, #heroButton {
+    position: absolute;
+}
+
+#me-picture {
+    top: calc(20vh - 80px);
+    height: 80vh;
+    width: auto;
+}
+
+h1{
+    top: calc(20vh - 80px);
+    right: 8%;
+    width: 50%;
+    font-size: $h1-desktop-size;
+    font-family: $heading-font;
+    font-weight: $heading-weight-black;
+    color: $black;
+}
+
+#golden-ticket {
+    top: 45vh;
+    right: 12%;
+    font-family: $special-font;
+    font-weight: $special-weight;
+    font-size: $special-desktop-size;
+    color: $white;
+}
+
+#experience {
+    display: inline-block;
+    top: 50vh;
+    right: 1%;
+}
+
+.experience1 {
+    font-family: $heading-font;
+    font-weight: $heading-weight-regular;
+    font-size: $h5-desktop-size;
+    color: $white;
+    padding-bottom: 8px;
+}
+
+.experience2 {
+    width: 90%;
+    font-family: $heading-font;
+    font-weight: $heading-weight-regular;
+    font-size: $h6-desktop-size;
+    color: $white;
+    padding: 8px 0px;
+}
+
+
+.experience3 {
+    font-family: $heading-font;
+    font-weight: $heading-weight-black;
+    font-size: $h6-desktop-size;
+    color: $white;
+    padding: 8px 0px;
+}
+
+#heroButton {
+    top: 75vh;
+    right: 25%;
+}
+
+#heroButton :hover {
+    cursor: pointer;
+    color: $black;
+    border: 4px solid $black;
+    background-color: $white;
+
+}

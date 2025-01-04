@@ -1,0 +1,57 @@
+// Primary colors
+$black:        #2A221D;
+$dark-green:   #45472B;
+$main-green:   #606C38;
+$light-green:  #889062;
+$white:        #FEFAE0;
+$purple:       #634CAE;
+
+// Derivative colors
+$black-75: rgba($black, 0.75);
+$black-50: rgba($black, 0.50);
+$black-25: rgba($black, 0.25);
+$black-10: rgba($black, 0.10);
+
+// Font information
+$heading-font: "Unbounded", sans-serif;
+$paragraph-font: "Josefin Sans", sans-serif;
+$special-font: "sincopa", sans-serif;
+$logo-font: "UnifrakturCook", system-ui;
+
+
+// Weights
+$heading-weight-black: 900;
+$heading-weight-regular: 400;
+$paragraph-weight: 400;
+$special-weight: 700;
+
+$font-style: normal;
+
+
+// Heading Font Sizes
+$h1-desktop-size: 5.61vw;
+$h2-desktop-size: 4.209vw;
+$h3-desktop-size: 3.157vw;
+$h4-desktop-size: 2.369vw;
+$h5-desktop-size: 1.777vw;
+$h6-desktop-size: 1.333vw;
+
+
+// Paragraph Font Size
+$paragraph-desktop-size: 1vw;
+
+
+// Logo Font Size
+$logo-desktop-size: 1vw;
+
+
+// Special Font Size
+$special-desktop-size: 2.369vw;
+
+// Responsive 
+$small-screen-max-width: 640px;
+
+$medium-screen-min-width: 641px;
+$medium-screen-max-width: 1007px;
+
+$large-screen-min-width: 1008px;

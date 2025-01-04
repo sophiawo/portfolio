@@ -1,0 +1,75 @@
+@import '/src/css/config';
+
+#photography {
+    margin-top: 16.9vh;
+    background-color: #77705A;
+    height: 72vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4.2vw;
+}
+
+.leftside_ph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#photography_img_1 {
+    width: 35%;
+    height: auto;
+}
+
+#photography_img_2 {
+    width: 55%;
+    height: auto;
+    margin-left: 2.1vw;
+}
+
+.rightside_ph {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 45%;
+    color: $white;
+}
+
+#headingphotography {
+    font-family: $heading-font;
+    font-size: $h3-desktop-size;
+    font-weight: $heading-weight-black;
+    color: $white;
+}
+
+.photographytext {
+    font-family: $paragraph-font;
+    font-size: $paragraph-desktop-size;
+    font-weight: $paragraph-weight;
+    line-height: 3.4vh;
+    margin-top: 5.1vh;
+    color: $white;
+}
+
+#buttonFlexboxPhotography {
+    display: flex;
+    justify-content: center;
+}
+
+#photographybutton {
+    margin-top: 5.1vh;
+    width: 60%;
+}
+
+#photographybutton Button {
+    background-color: $white;
+    border-color: $white;
+    color: $black;
+    align-self: center;
+}
+
+#photographybutton Button:hover {
+    cursor: pointer;
+    background-color: $black;
+    color: $white;
+}

@@ -1,0 +1,62 @@
+@import '/src/css/config';
+
+#graphicdesign {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 0 4.2vw;
+    height: 72vh;
+    display: flex;
+}
+
+.leftside_gd {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 45%;
+    color: $white;
+}
+
+#headinggraphicdesign {
+    font-family: $heading-font;
+    font-size: $h3-desktop-size;
+    font-weight: $heading-weight-black;
+    color: white;
+}
+
+.designtext {
+    font-family: $paragraph-font;
+    font-size: $paragraph-desktop-size;
+    font-weight: $paragraph-weight;
+    line-height: 3.4vh;
+    margin-top: 5.1vh;
+}
+
+#designbutton {
+    margin-top: 5.1vh;
+    width: 60%;
+}
+
+#designbutton Button {
+    background-color: $white;
+    border-color: $white;
+    color: $black;
+}
+
+#designbutton Button:hover {
+    cursor: pointer;
+    background-color: $black;
+    color: $white;
+}
+
+.rightside_gd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.theater {
+    width: 21.9vw;
+    height: auto;
+    margin-left: 2.1vw;
+}

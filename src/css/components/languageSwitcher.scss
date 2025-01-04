@@ -1,0 +1,25 @@
+@import '/src/css/config';
+
+#language-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    margin: 0px 5px;
+}
+
+button {
+    font-family: $heading-font;
+    font-weight: $heading-weight-regular;
+    font-size: $paragraph-desktop-size;
+    background: none;
+    border: none;
+    cursor: pointer;
+    min-width: 50px;
+}
+
+button.active {
+    font-weight: $heading-weight-black;
+}

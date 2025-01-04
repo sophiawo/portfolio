@@ -1,0 +1,22 @@
+@import '/src/css/config';
+@import '/src/css/shared';
+
+#footer {
+    margin-top: 38.1vh;
+    background-color: $dark-green;
+    height: 38.1vh;
+    width: 100%;
+    
+}
+
+#firstFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.2vw;
+}
+
+#sitemapFooter {
+    display: flex;
+    flex-direction: column;
+}

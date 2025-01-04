@@ -1,0 +1,25 @@
+.logo {
+    font-family: $logo-font;
+    font-size: $logo-desktop-size;
+    margin-right: 16px;
+    color: $purple;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.name {
+    font-family: $heading-font;
+    font-size: $paragraph-desktop-size;
+    font-weight: $heading-weight-black;
+}
