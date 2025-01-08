@@ -5,13 +5,13 @@
 </script>
 
 <template>
-    <div id="footer">
+    <footer id="footer">
         <ul class="list">
             <li id="firstFooter">
                 <span class="logo" id="logo_footer"><router-link to="/">W</router-link></span>
                 <span class="name" id="name_footer"><router-link to="/">SOPHIA M. WONKA</router-link></span>
             </li>
-            <li id="sitemapFooter">
+            <li id="sitemapFooter" class="links">
                 <router-link to="/">{{ $t("home") }}</router-link>
                 <router-link to="/projects"> {{ $t("projects") }}</router-link>
                 <router-link to="/about"> {{ $t("about") }}</router-link>
@@ -22,7 +22,7 @@
                 <p>sophia_m_wonka@gmail.com</p>
             </li>
         </ul>
-    </div>
+    </footer>
 </template>
 
 <style scoped lang="scss">

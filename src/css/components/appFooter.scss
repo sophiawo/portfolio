@@ -23,25 +23,24 @@
 
 #name_footer {
     font-size: $h6-desktop-size;
-}
 
-#name_footer a {
-    color: $white;
+    a {
+        color: $white;
+    }
 }
 
 //Second segment of the footer: sitemap
 #sitemapFooter {
     display: flex;
     flex-direction: column;
-}
 
-#sitemapFooter a {
-    margin: 1.5vh 0px;
-    font-family: $heading-font;
-    font-size: $h6-desktop-size;
-    font-weight: $heading-weight-regular;
-    color: $white;
-    text-decoration: none;
+    a {
+        margin: 1.5vh 0px;
+        font-family: $heading-font;
+        font-size: $h6-desktop-size;
+        font-weight: $heading-weight-regular;
+        color: $white;
+    }
 }
 
 //Third segment of the footer: location and email
@@ -51,8 +50,8 @@
     font-size: $h6-desktop-size;
     font-weight: $heading-weight-regular;
     color: $white;
-}
 
-#contactFooter p {
-    margin: 1.5vh 0px;
+    p {
+        margin: 1.5vh 0px;
+    }
 }

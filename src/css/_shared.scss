@@ -3,11 +3,11 @@
 .logo {
     font-family: $logo-font;
     margin-right: 0.8vw;
-}
 
-.logo a {
-    text-decoration: none;
-    color: $purple;
+    a {
+        text-decoration: none;
+        color: $purple;
+    }
 }
 
 .list {
@@ -22,8 +22,24 @@
 .name {
     font-family: $heading-font;
     font-weight: $heading-weight-black;
+
+    a {
+        text-decoration: none;
+    }
 }
 
-.name a {
+.links a {
+    font-family: $heading-font;
+    font-weight: $heading-weight-regular;
     text-decoration: none;
+    transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
+    justify-content: center;
+    display: inline-flex;
+
+    &:hover {
+        font-weight: $heading-weight-black;
+        letter-spacing: 0.1em;
+        text-decoration: underline;
+        text-decoration-color: $white;
+    }
 }

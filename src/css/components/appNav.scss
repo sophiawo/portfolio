@@ -55,32 +55,21 @@
     margin-right: 2.2vw;
 }
 
-.links {
+#linksNav {
     display: flex;
     justify-content: space-between;
 }
 
-.links a{
-    font-family: $heading-font;
-    font-weight: $heading-weight-regular;
+#linksNav a{
     font-size: $paragraph-desktop-size;
-    text-decoration: none;
     color: $black-75;
     min-width: 200px;
     flex-shrink: 0;
-    transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
-    display: inline-flex;
-    justify-content: center;
 }
 
-.links a.router-link-exact-active {
+#linksNav a.router-link-exact-active {
     font-weight: $heading-weight-black;
     text-decoration: underline;
     color: $black;
-    letter-spacing: 0.1em;
-}
-
-.links a:hover {
-    font-weight: $heading-weight-black;
     letter-spacing: 0.1em;
 }

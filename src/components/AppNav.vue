@@ -16,7 +16,7 @@ export default {
           <span class="name" id="name_nav"><router-link to="/">SOPHIA M. WONKA</router-link></span>
       </li>
       <li id="second">
-        <div class="links">
+        <div id="linksNav" class="links">
           <router-link to="/">{{ $t("home") }}</router-link>
           <router-link to="/projects"> {{ $t("projects") }}</router-link>
           <router-link to="/about"> {{ $t("about") }}</router-link>
