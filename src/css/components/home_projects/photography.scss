@@ -35,14 +35,14 @@
     color: $white;
 }
 
-#headingphotography {
+#heading_photography {
     font-family: $heading-font;
     font-size: $h3-desktop-size;
     font-weight: $heading-weight-black;
     color: $white;
 }
 
-.photographytext {
+.photography_text {
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
     font-weight: $paragraph-weight;
@@ -51,25 +51,25 @@
     color: $white;
 }
 
-#buttonFlexboxPhotography {
+#button_flexbox_photography {
     display: flex;
     justify-content: center;
 }
 
-#photographybutton {
+#photography_button {
     margin-top: 5.1vh;
     width: 60%;
-}
 
-#photographybutton Button {
-    background-color: $white;
-    border-color: $white;
-    color: $black;
-    align-self: center;
-}
+    Button {
+        background-color: $white;
+        border-color: $white;
+        color: $black;
+        align-self: center;
 
-#photographybutton Button:hover {
-    cursor: pointer;
-    background-color: $black;
-    color: $white;
+        &:hover {
+            cursor: pointer;
+            background-color: $black;
+            color: $white;
+        }
+    }
 }
