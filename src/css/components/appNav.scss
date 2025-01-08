@@ -26,6 +26,26 @@
     align-items: center;
 }
 
+#logo_nav {
+    font-size: $logo-desktop-size;
+}
+
+#name_nav {
+    font-size: $paragraph-desktop-size;
+}
+
+
+#name_nav a {
+    color: $black;
+    transition: color 0.3s ease-in-out;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#name_nav a:hover {
+    color: $purple;  
+}
+
 #second {
     max-width: 700px;
 }
@@ -63,16 +83,4 @@
 .links a:hover {
     font-weight: $heading-weight-black;
     letter-spacing: 0.1em;
-}
-
-.name a {
-    color: $black;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-    display: inline-flex;
-    justify-content: center;
-}
-
-.name a:hover {
-    color: $purple;  
 }

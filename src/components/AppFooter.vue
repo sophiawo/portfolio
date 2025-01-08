@@ -8,8 +8,8 @@
     <div id="footer">
         <ul class="list">
             <li id="firstFooter">
-                <span class="logo"><router-link to="/">W</router-link></span>
-                <span class="name"><router-link to="/">SOPHIA M. WONKA</router-link></span>
+                <span class="logo" id="logo_footer"><router-link to="/">W</router-link></span>
+                <span class="name" id="name_footer"><router-link to="/">SOPHIA M. WONKA</router-link></span>
             </li>
             <li id="sitemapFooter">
                 <router-link to="/">{{ $t("home") }}</router-link>

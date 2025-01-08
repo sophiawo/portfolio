@@ -2,13 +2,12 @@
 
 .logo {
     font-family: $logo-font;
-    font-size: $logo-desktop-size;
-    margin-right: 16px;
-    color: $purple;
+    margin-right: 0.8vw;
 }
 
 .logo a {
     text-decoration: none;
+    color: $purple;
 }
 
 .list {
@@ -22,6 +21,9 @@
 
 .name {
     font-family: $heading-font;
-    font-size: $paragraph-desktop-size;
     font-weight: $heading-weight-black;
+}
+
+.name a {
+    text-decoration: none;
 }

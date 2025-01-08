@@ -12,8 +12,8 @@ export default {
   <div id="nav">
     <ul class="list">
       <li id="first">
-          <span class="logo"><router-link to="/">W</router-link></span>
-          <span class="name"><router-link to="/">SOPHIA M. WONKA</router-link></span>
+          <span class="logo" id="logo_nav"><router-link to="/">W</router-link></span>
+          <span class="name" id="name_nav"><router-link to="/">SOPHIA M. WONKA</router-link></span>
       </li>
       <li id="second">
         <div class="links">
