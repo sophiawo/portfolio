@@ -48,7 +48,7 @@
     z-index: 2;
 }
 
-#me-picture, h1, #golden-ticket, #experience, #heroButton {
+#me-picture, h1, #golden-ticket, #experience, #hero-button {
     position: absolute;
 }
 
@@ -109,15 +109,14 @@ h1{
     padding: 8px 0px;
 }
 
-#heroButton {
+#hero-button {
     top: 75vh;
     right: 25%;
-}
 
-#heroButton :hover {
-    cursor: pointer;
-    color: $black;
-    border: 4px solid $black;
-    background-color: $white;
-
+    &:hover {
+        cursor: pointer;
+        color: $black;
+        border: 4px solid $black;
+        background-color: $white;
+    }
 }

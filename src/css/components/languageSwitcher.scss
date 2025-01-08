@@ -18,6 +18,10 @@ button {
     border: none;
     cursor: pointer;
     min-width: 50px;
+
+    &.active {
+        font-weight: $heading-weight-black;
+    }
 }
 
 button.active {

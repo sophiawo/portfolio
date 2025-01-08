@@ -1,6 +1,6 @@
 @import '/src/css/config';
 
-#interface_design {
+#interface-design {
     margin-top: 16.9vh;
     background-color: #EFD3CE;
     height: 72vh;
@@ -10,19 +10,19 @@
     padding: 0 4.2vw;
 }
 
-.leftside_id {
+.leftside-id {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.interface_img {
+.interface-img {
     width: 13vw;
     height: auto;
     margin-left: 2.1vw;
 }
 
-.rightside_id {
+.rightside-id {
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -30,14 +30,14 @@
     color: $black;
 }
 
-#heading_interface {
+#heading-interface {
     font-family: $heading-font;
     font-size: $h3-desktop-size;
     font-weight: $heading-weight-black;
     color: $black;
 }
 
-.interface_text {
+.interface-text {
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
     font-weight: $paragraph-weight;
@@ -46,12 +46,12 @@
     color: $black;
 }
 
-#button_flexbox_interface {
+#button-flexbox-interface {
     display: flex;
     justify-content: center;
 }
 
-#interface_button {
+#interface-button {
     margin-top: 5.1vh;
     width: 60%;
 

@@ -32,18 +32,17 @@
 
 #name_nav {
     font-size: $paragraph-desktop-size;
-}
 
+    a {
+        color: $black;
+        transition: color 0.3s ease-in-out;
+        display: inline-flex;
+        justify-content: center;
 
-#name_nav a {
-    color: $black;
-    transition: color 0.3s ease-in-out;
-    display: inline-flex;
-    justify-content: center;
-}
-
-#name_nav a:hover {
-    color: $purple;  
+        &:hover {
+            color: $purple;
+        }
+    }
 }
 
 #second {
@@ -55,21 +54,21 @@
     margin-right: 2.2vw;
 }
 
-#linksNav {
+#links-nav {
     display: flex;
     justify-content: space-between;
-}
 
-#linksNav a{
-    font-size: $paragraph-desktop-size;
-    color: $black-75;
-    min-width: 200px;
-    flex-shrink: 0;
-}
+    a {
+        font-size: $paragraph-desktop-size;
+        color: $black-75;
+        min-width: 200px;
+        flex-shrink: 0;
 
-#linksNav a.router-link-exact-active {
-    font-weight: $heading-weight-black;
-    text-decoration: underline;
-    color: $black;
-    letter-spacing: 0.1em;
+        &.router-link-exact-active {
+            font-weight: $heading-weight-black;
+            text-decoration: underline;
+            color: $black;
+            letter-spacing: 0.1em;
+        }
+    }
 }

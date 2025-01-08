@@ -1,6 +1,6 @@
 @import '/src/css/config';
 
-#graphic_design {
+#graphic-design {
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
@@ -9,7 +9,7 @@
     display: flex;
 }
 
-.leftside_gd {
+.leftside-gd {
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -17,14 +17,14 @@
     color: $white;
 }
 
-#heading_graphic_design {
+#heading-graphic-design {
     font-family: $heading-font;
     font-size: $h3-desktop-size;
     font-weight: $heading-weight-black;
     color: white;
 }
 
-.design_text {
+.design-text {
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
     font-weight: $paragraph-weight;
@@ -32,7 +32,7 @@
     margin-top: 5.1vh;
 }
 
-#design_button {
+#design-button {
     margin-top: 5.1vh;
     width: 60%;
 
@@ -49,7 +49,7 @@
     }
 }
 
-.rightside_gd {
+.rightside-gd {
     display: flex;
     flex-direction: row;
     align-items: center;

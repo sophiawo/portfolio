@@ -24,7 +24,7 @@
                     <p class="experience2">UX/UI Design // Frontend Web Developement // Digital Accessability // Animation</p>
                     <p class="experience3"> {{ $t("muchmore") }} </p>
                 </div>
-                <div id="heroButton">
+                <div id="hero-button">
                     <Button @click="$router.push('projects')" :buttonTextKey="'heroButtonText'" />
                 </div>
             </div>
