@@ -1,6 +1,6 @@
 @import '/src/css/config';
 
-#interfacedesign {
+#interface_design {
     margin-top: 16.9vh;
     background-color: #EFD3CE;
     height: 72vh;
@@ -30,14 +30,14 @@
     color: $black;
 }
 
-#headinginterface {
+#heading_interface {
     font-family: $heading-font;
     font-size: $h3-desktop-size;
     font-weight: $heading-weight-black;
     color: $black;
 }
 
-.interfacetext {
+.interface_text {
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
     font-weight: $paragraph-weight;
@@ -46,25 +46,25 @@
     color: $black;
 }
 
-#buttonFlexboxInterface {
+#button_flexbox_interface {
     display: flex;
     justify-content: center;
 }
 
-#interfacebutton {
+#interface_button {
     margin-top: 5.1vh;
     width: 60%;
-}
 
-#interfacebutton Button {
-    background-color: $black;
-    border-color: $black;
-    color: $white;
-    align-self: center;
-}
+    Button {
+        background-color: $black;
+        border-color: $black;
+        color: $white;
+        align-self: center;
 
-#interfacebutton Button:hover {
-    cursor: pointer;
-    background-color: $white;
-    color: $black;
+        &:hover {
+            cursor: pointer;
+            background-color: $white;
+            color: $black;
+        }
+    }
 }
