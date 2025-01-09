@@ -1,12 +1,9 @@
 @import './config.scss';
+@import './shared.scss';
 
 * {
     margin: 0vw;
     padding: 0vw;
-}
-
-.content {
-    background-color: $white;
 }
 
 h2 {

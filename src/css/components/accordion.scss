@@ -1,0 +1,19 @@
+@import '/src/css/config';
+@import '/src/css/shared';
+
+.content-accordion {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .header-accordion {
+    padding: 10px;
+    background: #f7f7f7;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  
+  .header-accordion:hover {
+    background: #e7e7e7;
+  }

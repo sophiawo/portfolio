@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "Akkordeon",
+  name: "AkkordionComponent",
   mounted() {
     const headers = document.querySelectorAll(".accordion .header_accordion"); // Korrektur hier: Klassenname war anders
     headers.forEach(header => {
@@ -14,9 +14,9 @@ export default {
 </script>
 
 <template>
-  <div class="accordion"> <!-- Klassenname angepasst -->
+  <div class="accordion">
     <div class="item">
-      <button class="header-accordion">POSTER & FLYERS</button>
+      <button class="header-accordion">GRAPHIC DESIGN</button>
       <div class="content-accordion">
         <p>Lorem lorem</p>
       </div>
@@ -27,24 +27,21 @@ export default {
         <p>Lorem lorem</p>
       </div>
     </div>
+    <div class="item">
+      <button class="header-accordion">WEBDESIGN</button>
+      <div class="content-accordion">
+        <p>Lorem lorem</p>
+      </div>
+    </div>
+    <div class="item">
+      <button class="header-accordion">PHOTOGRAPHY</button>
+      <div class="content-accordion">
+        <p>Lorem lorem</p>
+      </div>
+    </div>
   </div>
 </template>
 
-<style>
-.content-accordion {
-  display: none;
-  padding: 10px;
-  border: 1px solid #ddd;
-}
-
-.header-accordion {
-  padding: 10px;
-  background: #f7f7f7;
-  cursor: pointer;
-  border: 1px solid #ddd;
-}
-
-.header-accordion:hover {
-  background: #e7e7e7;
-}
+<style scoped lang="scss">
+@import '/src/css/components/accordion.scss';
 </style>
