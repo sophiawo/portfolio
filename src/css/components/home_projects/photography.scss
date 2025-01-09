@@ -1,19 +1,8 @@
 @import '/src/css/config';
+@import '/src/css/shared';
 
 #photography {
-    margin-top: 16.9vh;
     background-color: #77705A;
-    height: 72vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 4.2vw;
-}
-
-.leftside-ph {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 #photography-img1 {
@@ -36,40 +25,9 @@
 }
 
 #heading-photography {
-    font-family: $heading-font;
-    font-size: $h3-desktop-size;
-    font-weight: $heading-weight-black;
     color: $white;
 }
 
 .photography-text {
-    font-family: $paragraph-font;
-    font-size: $paragraph-desktop-size;
-    font-weight: $paragraph-weight;
-    line-height: 3.4vh;
-    margin-top: 5.1vh;
     color: $white;
-}
-
-#button-flexbox-photography {
-    display: flex;
-    justify-content: center;
-}
-
-#photography-button {
-    margin-top: 5.1vh;
-    width: 60%;
-
-    Button {
-        background-color: $white;
-        border-color: $white;
-        color: $black;
-        align-self: center;
-
-        &:hover {
-            cursor: pointer;
-            background-color: $black;
-            color: $white;
-        }
-    }
 }

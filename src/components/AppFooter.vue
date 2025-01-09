@@ -17,7 +17,7 @@
                 <router-link to="/about"> {{ $t("about") }}</router-link>
                 <router-link to="/contact"> {{ $t("contact") }}</router-link>
             </li>
-            <li id="contac-footer">
+            <li id="contact-footer">
                 <p>Augsburg, Germany</p>
                 <p>sophia_m_wonka@gmail.com</p>
             </li>

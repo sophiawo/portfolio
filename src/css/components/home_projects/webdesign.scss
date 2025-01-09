@@ -1,50 +1,19 @@
 @import '/src/css/config';
+@import '/src/css/shared';
 
 #webdesign {
-    margin-top: 16.9vh;
     background-color: $light-green;
-    height: 72vh;
     width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 0 4.2vw;
 }
 
-#heading_webdesign {
-    color: $black;
-    font-family: $heading-font;
-    font-size: $h3-desktop-size;
-    font-weight: $heading-weight-black;
-}
-
-.web_text {
-    font-family: $paragraph-font;
-    font-size: $paragraph-desktop-size;
-    font-weight: $paragraph-weight;
-    line-height: 3.4vh;
-    margin-top: 5.1vh;
+#heading-webdesign {
     color: $black;
 }
 
-#button_flexbox_web {
-    display: flex;
-    justify-content: center;
+.web-text {
+    color: $black;
 }
 
-#web_button {
-    margin-top: 5.1vh;
+#web-button {
     width: 50%;
-
-    Button {
-        background-color: $black;
-        border-color: $black;
-        color: $white;
-        align-self: center;
-
-        &:hover {
-            cursor: pointer;
-            background-color: $white;
-            color: $black;
-        }
-    }
 }
