@@ -1,47 +1,5 @@
 @import './config';
-
-.logo {
-    font-family: $logo-font;
-    margin-right: 0.8vw;
-
-    a {
-        text-decoration: none;
-        color: $purple;
-    }
-}
-
-.list {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.name {
-    font-family: $heading-font;
-    font-weight: $heading-weight-black;
-
-    a {
-        text-decoration: none;
-    }
-}
-
-.links a {
-    font-family: $heading-font;
-    font-weight: $heading-weight-regular;
-    text-decoration: none;
-    transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
-    justify-content: center;
-    display: inline-flex;
-}
-
-.links a:hover {
-    font-weight: $heading-weight-black;
-    letter-spacing: 0.1em;
-    text-decoration: underline;
-}
+@import './sharedcss/navAndFooter.scss';
 
 .content {
     background-color: $white;
@@ -97,6 +55,7 @@
     border-color: $white;
     color: $black;
     align-self: center;
+    transition: color 0.3s ease-in-out;
     
 
     &:hover {
@@ -111,6 +70,7 @@
     border-color: $black;
     color: $white;
     align-self: center;
+    transition: color 0.3s ease-in-out;
 
     &:hover {
         cursor: pointer;
