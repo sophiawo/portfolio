@@ -1,9 +1,9 @@
 <script>
-    import Button from './MyButton.vue'
+    import MyButton from './MyButton.vue'
 
     export default {
         components: {
-            Button,
+            MyButton,
         },
 
         name : "HeroSection",
@@ -25,7 +25,7 @@
                     <p class="experience3"> {{ $t("muchmore") }} </p>
                 </div>
                 <div id="hero-button">
-                    <Button @click="$router.push('projects')" :buttonTextKey="'heroButtonText'" />
+                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'heroButtonText'" />
                 </div>
             </div>
         </div>
