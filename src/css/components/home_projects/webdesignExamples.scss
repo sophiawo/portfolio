@@ -1,0 +1,18 @@
+@import '/src/css/config';
+@import '/src/css/shared';
+
+#webdesign-example1, #webdesign-example2 {
+    justify-content: center; 
+}
+
+#webdesign-example1 {
+    background-color: #432818;
+}
+
+#webdesign-example2 {
+    background-color: #ededed;
+}
+
+.webdesign-example-picture {
+    width: 65vw;
+}

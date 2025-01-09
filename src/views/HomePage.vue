@@ -2,8 +2,9 @@
 import HeroSection from '@/components/HeroSection.vue';
 import GraphicDesign from '@/components/home_projects/GraphicDesign.vue';
 import InterfaceDesign from '@/components/home_projects/InterfaceDesign.vue';
-import Photography from '@/components/home_projects/Photography.vue';
+import PhotographySegment from '@/components/home_projects/PhotographySegment.vue';
 import WebDesign from '@/components/home_projects/WebDesign.vue';
+import WebDesignExample from '@/components/home_projects/WebDesignExample.vue';
 
 export default {
     components: {
@@ -11,7 +12,8 @@ export default {
         GraphicDesign,
         InterfaceDesign,
         WebDesign,
-        Photography,
+        WebDesignExample,
+        PhotographySegment,
     }
 }
 </script>
@@ -24,7 +26,8 @@ export default {
             <GraphicDesign />
             <InterfaceDesign />
             <WebDesign />
-            <Photography />
+            <WebDesignExample />
+            <PhotographySegment />
         </div>
     </div>
 </template>

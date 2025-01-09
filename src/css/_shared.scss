@@ -40,13 +40,14 @@
 .links a:hover {
     font-weight: $heading-weight-black;
     letter-spacing: 0.1em;
+    text-decoration: underline;
 }
 
 #graphic-design, #interface-design, #webdesign, #photography {
     padding: 0px 4.2vh;
 }
 
-#interface-design, #webdesign, #photography {
+#interface-design, #webdesign, #webdesign-example1, #webdesign-example2, #photography {
     margin-top: 16.9vh;
 }
 

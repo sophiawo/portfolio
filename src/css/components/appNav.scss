@@ -70,5 +70,9 @@
             color: $black;
             letter-spacing: 0.1em;
         }
+
+        &:hover {
+            text-decoration-color: $black-75;
+        }
     }
 }

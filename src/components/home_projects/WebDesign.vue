@@ -1,9 +1,9 @@
 <script>
-    import Button from '../Button.vue';
+    import MyButton from '../MyButton.vue';
 
     export default{
         components: {
-            Button,
+            MyButton,
         },
 
         name: "InterfaceDesign",
@@ -24,7 +24,7 @@
             </p>
             <div class="segment-button-flexbox" id="button-flexbox-web">
                 <div class="segment-button" id="web-button">
-                    <Button class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'read more about webdesign'" />
+                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'read more about webdesign'" />
                 </div>
             </div>
         </div>

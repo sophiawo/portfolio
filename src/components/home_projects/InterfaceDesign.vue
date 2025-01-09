@@ -1,9 +1,9 @@
 <script>
-    import Button from '../Button.vue';
+    import MyButton from '../MyButton.vue';
 
     export default{
         components: {
-            Button,
+            MyButton,
         },
 
         name: "InterfaceDesign",
@@ -27,7 +27,7 @@
             <p class="interface-text, segment-text"> Read more about the process behind by clicking the following button.</p>
             <div class="segment-button-flexbox" id="button-flexbox-interface">
                 <div class="segment-button">
-                    <Button class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'read more about interfacedesign'" />
+                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'read more about interfacedesign'" />
                 </div>
             </div>
         </div>

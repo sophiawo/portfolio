@@ -1,12 +1,12 @@
 <script>
-    import Button from '../Button.vue';
+    import MyButton from '../MyButton.vue';
 
     export default{
         components: {
-            Button,
+            MyButton,
         },
 
-        name: "Photography",
+        name: "PhotographySegment",
     }
 </script>
 
@@ -20,13 +20,13 @@
             <h3 class="segment-heading" id="heading-photography">PHOTOGRAPHY</h3>
             <p class="photography-text, segment-text"> In early 2023 I started doing analogue photography as a hobby. Through this
                 I sharpened my sight for composition. I take my camera with me to every new place I visit, but also
-                go on strolls through my hometown to find gread everyday motives.
+                go on strolls through my hometown to find captivating everyday motives.
             </p>
             <p class="photography-text, segment-text"> With developing the films, analogue photography became one of my favourite pastime.</p>
             <p class="photography-text, segment-text"> See more of my photography by clicking the following button.</p>
             <div class="segment-button-flexbox" id="button-flexbox-photography">
                 <div class="segment-button">
-                    <Button class="segment-button-white" @click="$router.push('projects')" :buttonTextKey="'read more about photography'" />
+                    <MyButton class="segment-button-white" @click="$router.push('projects')" :buttonTextKey="'read more about photography'" />
                 </div>
             </div>
         </div>

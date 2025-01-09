@@ -14,5 +14,5 @@ export default {
 </script>
 
 <style scooped lang="scss">
-@import '/src/css/components/button.scss';
+@import '/src/css/components/mybutton.scss';
 </style>
