@@ -9,14 +9,35 @@ export default {
         content.style.display = content.style.display === "block" ? "none" : "block";
       });
     });
+
+    this.openAccordionFromHash();
   },
+
+  watch: {
+    '$route.hash'() {
+      this.openAccordionFromHash();
+    }
+  },
+  methods: {
+    openAccordionFromHash() {
+      const hash = this.$route.hash;
+      if (hash) {
+        const targetHeader = document.querySelector(hash);
+        if (targetHeader && targetHeader.classList.contains("header-accordion")) {
+          const content = targetHeader.nextElementSibling;
+          content.style.display = "block";
+          targetHeader.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }
+  }
 };
 </script>
 
 <template>
   <div class="accordion">
     <div class="item">
-      <button class="header-accordion"><h3>GRAPHIC DESIGN</h3></button>
+      <button class="header-accordion" id="graphic-design-accordion"><h3>GRAPHIC DESIGN</h3></button>
       <div class="content-accordion">
         <p>Lorem lorem</p>
       </div>

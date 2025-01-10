@@ -22,7 +22,7 @@
             <p class="design-text, segment-text"> Read more about the process behind my graphic design projects by clicking the following button.</p>
             <div class="segment-button-flexbox">
                 <div class="segment-button">
-                    <MyButton class="segment-button-white" @click="$router.push('projects')" :buttonTextKey="'read more about graphic design'" />
+                    <MyButton class="segment-button-white" @click="$router.push({ path: '/projects', hash: '#graphic-design-accordion'})" :buttonTextKey="'read more about graphic design'" />
                 </div>           
             </div>
         </div>

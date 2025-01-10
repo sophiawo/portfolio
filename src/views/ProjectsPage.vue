@@ -6,6 +6,7 @@
             AkkordionComponent,
         },
     };
+
 </script>
 
 <template>
