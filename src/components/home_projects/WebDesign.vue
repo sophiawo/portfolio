@@ -13,7 +13,7 @@
 <template>
     <div class="home-segment" id="webdesign">
         <div id="webdesign-content">
-            <h3 class="segment-heading" id="heading-webdesign">WEBDESIGN</h3>
+            <h3 class="segment-heading" id="heading-webdesign">WEB DESIGN</h3>
             <p class="web-text, segment-text"> During my studies I had to design (and code) various websites. I also came 
                 into contact with digital accessability. I deepend my knowledge on webdesign on my own
                 outside of my university studies and try to follow industry standards and work with widespread

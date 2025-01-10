@@ -19,7 +19,7 @@
                 I tried to create an outstanding and attention grabing yet simple design that
                 ties in with the theme of the play ('Twelve Angry Men').
             </p>
-            <p class="design-text, segment-text"> Read more about the process behind by clicking the following button.</p>
+            <p class="design-text, segment-text"> Read more about the process behind my graphic design projects by clicking the following button.</p>
             <div class="segment-button-flexbox">
                 <div class="segment-button">
                     <MyButton class="segment-button-white" @click="$router.push('projects')" :buttonTextKey="'read more about graphic design'" />

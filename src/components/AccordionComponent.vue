@@ -2,7 +2,7 @@
 export default {
   name: "AkkordionComponent",
   mounted() {
-    const headers = document.querySelectorAll(".accordion .header_accordion"); // Korrektur hier: Klassenname war anders
+    const headers = document.querySelectorAll(".accordion .header-accordion"); 
     headers.forEach(header => {
       header.addEventListener("click", () => {
         const content = header.nextElementSibling;
@@ -16,25 +16,25 @@ export default {
 <template>
   <div class="accordion">
     <div class="item">
-      <button class="header-accordion">GRAPHIC DESIGN</button>
+      <button class="header-accordion"><h3>GRAPHIC DESIGN</h3></button>
       <div class="content-accordion">
         <p>Lorem lorem</p>
       </div>
     </div>
     <div class="item">
-      <button class="header-accordion">INTERFACEDESIGN</button>
+      <button class="header-accordion"><h3>INTERFACEDESIGN</h3></button>
       <div class="content-accordion">
         <p>Lorem lorem</p>
       </div>
     </div>
     <div class="item">
-      <button class="header-accordion">WEBDESIGN</button>
+      <button class="header-accordion"><h3>WEB DESIGN</h3></button>
       <div class="content-accordion">
         <p>Lorem lorem</p>
       </div>
     </div>
     <div class="item">
-      <button class="header-accordion">PHOTOGRAPHY</button>
+      <button class="header-accordion"><h3>PHOTOGRAPHY</h3></button>
       <div class="content-accordion">
         <p>Lorem lorem</p>
       </div>

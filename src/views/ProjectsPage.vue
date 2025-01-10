@@ -10,7 +10,7 @@
 
 <template>
     <div class="content">
-        <h2>PROJECTS</h2>
+        <h2>{{ $t("projectsCaps")}}</h2>
         <AkkordionComponent />
     </div>
 </template>
