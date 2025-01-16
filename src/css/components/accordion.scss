@@ -30,13 +30,35 @@ h3 {
   min-height: 8.8vh;
   background-color: $light-green;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .item:nth-child(even){
   background-color: $dark-green;
     
-  .header-accordion {
+  .header-accordion, .content-accordion, .arrow-icon {
     color: $white;
   }
+}
+
+.header-accordion {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arrow-icon {
+  font-size: $h3-desktop-size;
+  padding-right: 1vw;
+}
+
+.content-accordion {
+  padding: 1vw;
+  font-family: $paragraph-font;
+  font-size: $paragraph-desktop-size;
+  font-weight: $paragraph-weight;
 }

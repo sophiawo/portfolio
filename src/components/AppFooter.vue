@@ -5,6 +5,7 @@
 </script>
 
 <template>
+    <div id="footer-puffer"></div>
     <footer id="footer">
         <ul class="list">
             <li id="first-footer">

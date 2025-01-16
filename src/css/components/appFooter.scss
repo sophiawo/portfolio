@@ -1,8 +1,13 @@
 @import '/src/css/config';
 @import '/src/css/shared';
 
+#footer-puffer{
+    height: 38.1vh;
+    width: 100%;
+    background-color: $white;
+}
+
 #footer {
-    margin-top: 38.1vh;
     background-color: $dark-green;
     height: 38.1vh;
     width: 100%;
