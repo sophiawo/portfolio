@@ -1,4 +1,6 @@
 <script>
+import AccordionComponentGraphicDesign from './AccordionComponents/AccordionComponentGraphicDesign.vue';
+
 export default {
   name: "AkkordionComponent",
   mounted() {
@@ -38,21 +40,17 @@ export default {
         }
       }
     }
+  },
+
+  components: {
+    AccordionComponentGraphicDesign
   }
 };
 </script>
 
 <template>
   <div class="accordion">
-    <div class="item">
-      <button class="header-accordion" id="graphic-design-accordion">
-        <h3>GRAPHIC DESIGN</h3>
-        <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
-      </button>
-      <div class="content-accordion">
-        <p>Lorem lorem</p>
-      </div>
-    </div>
+    <AccordionComponentGraphicDesign/>
     <div class="item">
       <button class="header-accordion">
         <h3>INTERFACEDESIGN</h3>
