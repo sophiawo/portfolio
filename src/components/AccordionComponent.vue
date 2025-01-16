@@ -1,5 +1,8 @@
 <script>
 import AccordionComponentGraphicDesign from './AccordionComponents/AccordionComponentGraphicDesign.vue';
+import AccordionComponentInterfaceDesign from './AccordionComponents/AccordionComponentInterfaceDesign.vue';
+import AccordionComponentPhotography from './AccordionComponents/AccordionComponentPhotography.vue';
+import AccordionComponentWebDesign from './AccordionComponents/AccordionComponentWebDesign.vue';
 
 export default {
   name: "AkkordionComponent",
@@ -43,7 +46,10 @@ export default {
   },
 
   components: {
-    AccordionComponentGraphicDesign
+    AccordionComponentGraphicDesign,
+    AccordionComponentInterfaceDesign,
+    AccordionComponentWebDesign,
+    AccordionComponentPhotography
   }
 };
 </script>
@@ -51,33 +57,9 @@ export default {
 <template>
   <div class="accordion">
     <AccordionComponentGraphicDesign/>
-    <div class="item">
-      <button class="header-accordion">
-        <h3>INTERFACEDESIGN</h3>
-        <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
-      </button>
-      <div class="content-accordion">
-        <p>Lorem lorem</p>
-      </div>
-    </div>
-    <div class="item">
-      <button class="header-accordion">
-        <h3>WEB DESIGN</h3>
-        <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
-      </button>
-      <div class="content-accordion">
-        <p>Lorem lorem</p>
-      </div>
-    </div>
-    <div class="item">
-      <button class="header-accordion">
-        <h3>PHOTOGRAPHY</h3>
-        <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
-      </button>
-      <div class="content-accordion">
-        <p>Lorem lorem</p>
-      </div>
-    </div>
+    <AccordionComponentInterfaceDesign/>
+    <AccordionComponentWebDesign/>
+    <AccordionComponentPhotography/>
   </div>
 </template>
 
