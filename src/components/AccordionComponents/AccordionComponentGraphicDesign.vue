@@ -11,6 +11,7 @@
         <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
       </button>
       <div class="content-accordion">
+        <h4>12 ANGRY MEN</h4>
         <p>Lorem lorem</p>
       </div>
     </div>

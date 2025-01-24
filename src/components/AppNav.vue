@@ -17,10 +17,10 @@ export default {
       </li>
       <li id="second">
         <div id="links-nav" class="links">
-          <router-link to="/">{{ $t("home") }}</router-link>
-          <router-link to="/projects"> {{ $t("projects") }}</router-link>
-          <router-link to="/about"> {{ $t("about") }}</router-link>
-          <router-link to="/contact"> {{ $t("contact") }}</router-link>
+          <router-link to="/">{{ $t("common.home") }}</router-link>
+          <router-link to="/projects"> {{ $t("common.projects") }}</router-link>
+          <router-link to="/about"> {{ $t("common.about") }}</router-link>
+          <router-link to="/contact"> {{ $t("common.contact") }}</router-link>
         </div>
       </li>
       <li id="third">
