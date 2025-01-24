@@ -7,7 +7,7 @@
 <template>
 <div class="item">
       <button class="header-accordion" id="graphic-design-accordion">
-        <h3>GRAPHIC DESIGN</h3>
+        <h3>{{ $t("common.graphicDesignCaps") }}</h3>
         <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
       </button>
       <div class="content-accordion">

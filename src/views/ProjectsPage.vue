@@ -11,7 +11,7 @@
 
 <template>
     <div class="content">
-        <h2>{{ $t("projectsCaps")}}</h2>
+        <h2>{{ $t("common.projectsCaps")}}</h2>
         <AkkordionComponent />
     </div>
 </template>
