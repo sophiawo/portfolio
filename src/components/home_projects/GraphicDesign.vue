@@ -13,7 +13,7 @@
 <template>
     <div class="home-segment" id="graphic-design">
         <div class="leftside-gd">
-            <h3 class="segment-heading" id="heading-graphic-design">GRAPHIC DESIGN</h3>
+            <h3 class="segment-heading" id="heading-graphic-design">{{ $t("common.graphicDesignCaps") }}</h3>
             <p class="design-text, segment-text"> I had the pleasure of designing the poster and flyer for the summer 2023
                 production of the So1Theater theater group (whos website I also reworked).
                 I tried to create an outstanding and attention grabing yet simple design that

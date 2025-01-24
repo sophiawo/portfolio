@@ -22,7 +22,7 @@ export default {
     <div class="content">
         <HeroSection />
         <div id="projects-home">
-            <h2> {{ $t("projectsCaps")}}</h2>
+            <h2> {{ $t("common.projectsCaps")}}</h2>
             <GraphicDesign />
             <InterfaceDesign />
             <WebDesign />

@@ -1,7 +1,12 @@
 {
     "home" : "Home",
     "projects": "Projekte",
-    "projectsCaps": "PROJEKTE",
     "about": "Über mich",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+
+    "projectsCaps": "PROJEKTE",
+    "graphicDesignCaps": "GRAFIKDESIGN",
+    "interfaceDesignCaps": "INTERFACEDESIGN",
+    "webDesignCaps": "WEBDESIGN",
+    "photographyCaps": "FOTOGRAFIE"
 }

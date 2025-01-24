@@ -18,7 +18,7 @@
             <img class="interface-img" src="/src/assets/interface_design/achievements_screen.png" />
         </div>
         <div class="rightside-id">
-            <h3 class="segment-heading" id="heading-interface">INTERFACE DESIGN</h3>
+            <h3 class="segment-heading" id="heading-interface">{{ $t("common.interfaceDesignCaps") }}</h3>
             <p class="interface-text, segment-text"> Through an university class I got in contact with app interface design. Our
                 app was a time management tool with fokus on balancing work and free time. The choosen Art Déco style
                 with its symmetrical and balanced elements supports the goal of having a good

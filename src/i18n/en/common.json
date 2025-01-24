@@ -1,7 +1,12 @@
 {
     "home" : "Home",
     "projects": "Projects",
-    "projectsCaps": "PROJECTS",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+
+    "projectsCaps": "PROJECTS",
+    "graphicDesignCaps": "GRAPHIC DESIGN",
+    "interfaceDesignCaps": "INTERFACE DESIGN",
+    "webDesignCaps": "WEB DESIGN",
+    "photographyCaps": "PHOTOGRAPHY"
 }

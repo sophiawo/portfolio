@@ -18,14 +18,14 @@
             <div id="hero-content">
                 <img id="me-picture" src="../assets/hero_section/itsme.png">
                 <h1>SOPHIA M. WONKA</h1>
-                <p id="golden-ticket"> {{ $t("goldenticket") }}</p>
+                <p id="golden-ticket"> {{ $t("home.goldenticket") }}</p>
                 <div id="experience">
-                    <p class="experience1"> {{ $t("experiencein") }}</p>
+                    <p class="experience1"> {{ $t("home.experiencein") }}</p>
                     <p class="experience2">UX/UI Design // Frontend Web Developement // Digital Accessability // Animation</p>
-                    <p class="experience3"> {{ $t("muchmore") }} </p>
+                    <p class="experience3"> {{ $t("home.muchmore") }} </p>
                 </div>
                 <div id="hero-button">
-                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'heroButtonText'" />
+                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'home.heroButtonText'" />
                 </div>
             </div>
         </div>

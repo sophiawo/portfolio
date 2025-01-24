@@ -17,7 +17,7 @@
             <img id="photography-img2" src="/src/assets/photography/photography_2.png" />
         </div>
         <div class="rightside-ph">
-            <h3 class="segment-heading" id="heading-photography">PHOTOGRAPHY</h3>
+            <h3 class="segment-heading" id="heading-photography">{{ $t("common.photographyCaps") }}</h3>
             <p class="photography-text, segment-text"> In early 2023 I started doing analogue photography as a hobby. Through this
                 I sharpened my sight for composition. I take my camera with me to every new place I visit, but also
                 go on strolls through my hometown to find captivating everyday motives.

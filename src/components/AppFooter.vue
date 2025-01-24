@@ -13,10 +13,10 @@
                 <span class="name" id="name-footer"><router-link to="/">SOPHIA M. WONKA</router-link></span>
             </li>
             <li id="sitemap-footer" class="links">
-                <router-link to="/">{{ $t("home") }}</router-link>
-                <router-link to="/projects"> {{ $t("projects") }}</router-link>
-                <router-link to="/about"> {{ $t("about") }}</router-link>
-                <router-link to="/contact"> {{ $t("contact") }}</router-link>
+                <router-link to="/">{{ $t("common.home") }}</router-link>
+                <router-link to="/projects"> {{ $t("common.projects") }}</router-link>
+                <router-link to="/about"> {{ $t("common.about") }}</router-link>
+                <router-link to="/contact"> {{ $t("common.contact") }}</router-link>
             </li>
             <li id="contact-footer">
                 <p>Augsburg, Germany</p>
