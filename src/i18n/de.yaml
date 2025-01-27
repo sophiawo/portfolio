@@ -1,0 +1,23 @@
+common:
+  home: "Home"
+  projects: "Projekte"
+  about: "Über mich"
+  contact: "Kontakt"
+
+  projectsCaps: "PROJEKTE"
+  graphicDesignCaps: "GRAFIKDEDIGN"
+  interfaceDesignCaps: "INTERFACEDESIGN"
+  webDesignCaps: "WEBDESIGN"
+  photographyCaps: "FOTOGRAFIE"
+
+homepage: 
+  goldenticket: "Ihr goldenes Ticket für Design"
+  experiencein: "Erfahrungen in"
+  muchmore: "und vieles mehr!"
+  heroButtonText: "Zeig mir Projekte!"
+
+  graphicDesignShort: 
+    "I had the pleasure of designing the poster and flyer for the summer 2023
+    production of the So1Theater theater group (whos website I also reworked).
+    I tried to create an outstanding and attention grabing yet simple design that
+    ties in with the theme of the play ('Twelve Angry Men')."
