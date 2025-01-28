@@ -10,6 +10,8 @@ common:
   webDesignCaps: "WEBDESIGN"
   photographyCaps: "FOTOGRAFIE"
 
+  germany: "Deutschland"
+
 homepage: 
   goldenticket: "Ihr goldenes Ticket für Design"
   experiencein: "Erfahrungen in"
@@ -17,7 +19,55 @@ homepage:
   heroButtonText: "Zeig mir Projekte!"
 
   graphicDesignShort: 
-    "I had the pleasure of designing the poster and flyer for the summer 2023
-    production of the So1Theater theater group (whos website I also reworked).
-    I tried to create an outstanding and attention grabing yet simple design that
-    ties in with the theme of the play ('Twelve Angry Men')."
+    "Ich hatte die Freude, das Poster und den Flyer für die 2023 Sommerproduktion
+    der So1Theater Theatergruppe zu erstellen (an deren Webseite ich auch gearbeitet
+    habe). Ich habe versucht, ein herausstechendes Design zu erstellen, das sowohl
+    simpel ist, als auch Elemente und Stimmung des Stücks wiederspiegelt ('Die zwölf
+    Geschworenen')."
+
+  graphicDesignMore:
+    "Klicken Sie den folgenden Button und lesen Sie dort mehr über den Prozess hinter 
+    meinen Grafikdesignprojekten."
+
+  graphicDesignButton: 
+    "Lesen Sie mehr über Grafikdesign"
+
+  interfaceDesignShort:
+    "Durch einen Kurs an der Universität bin ich mit App Interfacedesign in Kontakt gekommen.
+    Unsere App war ein Zeitmanagementtool, das beim Ausgleich von Arbeit und Freizeit helfen
+    soll. Der gewählte Art Déco Stil untermalt mit seinen symmetrischen Formen das Ziel, eine
+    gute Work-Life-Balance zu haben."
+
+  interfaceDesignMore:
+    "Klicken Sie den folgenden Button und lesen Sie mehr über den Prozess hinter dem Interfacedesignprojekt."
+
+  interfaceDesignButton:
+    "Lesen Sie mehr über Interfacedesign"
+
+  webDesignShort:
+   "Während meines Studiums musste ich viele Webseiten designen (und coden). Ich besuchte
+    auch einen Kurs über digitale Barrierefreiheit. Auf eigene Faust habe ich mein Wissen über 
+    Webdesign in meiner Freizeit vertieft und versuche Industriestandards zu folgen und mit 
+    weitverbreiteten Tools und Programmen zu arbeiten."
+
+  webDesignMore: 
+    "Klicken Sie folgenden Button und sehen Sie Beispiele meiner Arbeit und lesen Sie
+    mehr über den Prozess hinter meinen Webdesignprojekten."
+
+  webDesignButton:
+    "Lesen Sie mehr über Webdesign"
+
+  photographyShort1:
+    "Im Frühjahr 2023 habe ich mit Analogfotografie angefangen. Dadurch schärfte ich meinen Blick für
+    Komposition. Meine Kamera nehme ich an jeden neuen Ort den ich besuche mit, aber ich gehe auch gerne
+    auf Streifzüge durch meine Heimatstadt um fesselnde alltägliche Motive zu finden."
+
+  photographyShort2:
+    "Zusammen mit dem eigenhändigen Entwickeln der Filme ist die Analogfotografie eines meiner liebsten
+    Hobbies geworden."
+
+  photographyMore:
+    "Klicken Sie auf den folgenden Button um mehr meiner Fotografien zu sehen."
+
+  photographyButton:
+    "Lesen Sie mehr über Fotografie"

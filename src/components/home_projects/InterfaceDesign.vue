@@ -19,15 +19,11 @@
         </div>
         <div class="rightside-id">
             <h3 class="segment-heading" id="heading-interface">{{ $t("common.interfaceDesignCaps") }}</h3>
-            <p class="interface-text, segment-text"> Through an university class I got in contact with app interface design. Our
-                app was a time management tool with fokus on balancing work and free time. The choosen Art Déco style
-                with its symmetrical and balanced elements supports the goal of having a good
-                work-life-balance.
-            </p>
-            <p class="interface-text, segment-text"> Read more about the process behind by clicking the following button.</p>
+            <p class="interface-text, segment-text"> {{ $t("homepage.interfaceDesignShort") }} </p>
+            <p class="interface-text, segment-text"> {{ $t("homepage.interfaceDesignMore") }} </p>
             <div class="segment-button-flexbox" id="button-flexbox-interface">
                 <div class="segment-button">
-                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'read more about interfacedesign'" />
+                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'homepage.interfaceDesignButton'" />
                 </div>
             </div>
         </div>

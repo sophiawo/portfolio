@@ -19,8 +19,8 @@
                 <router-link to="/contact"> {{ $t("common.contact") }}</router-link>
             </li>
             <li id="contact-footer">
-                <p>Augsburg, Germany</p>
-                <p>sophia_m_wonka@gmail.com</p>
+                <p>Augsburg, {{ $t("common.germany") }}</p>
+                <p>sophia.m.wonka@gmail.com</p>
             </li>
         </ul>
     </footer>

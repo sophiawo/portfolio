@@ -14,17 +14,11 @@
     <div class="home-segment" id="webdesign">
         <div id="webdesign-content">
             <h3 class="segment-heading" id="heading-webdesign">{{ $t("common.webDesignCaps") }}</h3>
-            <p class="web-text, segment-text"> During my studies I had to design (and code) various websites. I also came 
-                into contact with digital accessability. I deepend my knowledge on webdesign on my own
-                outside of my university studies and try to follow industry standards and work with widespread
-                tools and programms.
-            </p>
-            <p class="web-text, segment-text"> See in depth examples and read more about the process behind my projects by
-                clicking the following button.
-            </p>
+            <p class="web-text, segment-text"> {{ $t('homepage.webDesignShort') }} </p>
+            <p class="web-text, segment-text"> {{ $t('homepage.webDesignMore') }} </p>
             <div class="segment-button-flexbox" id="button-flexbox-web">
                 <div class="segment-button" id="web-button">
-                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'read more about webdesign'" />
+                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'homepage.webDesignButton'" />
                 </div>
             </div>
         </div>
