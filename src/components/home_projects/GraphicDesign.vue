@@ -1,13 +1,25 @@
 <script>
     import MyButton from '../MyButton.vue';
+    import LightboxImage from '../LightboxImage.vue';
 
     export default{
         components: {
             MyButton,
+            LightboxImage
+        },
+
+        data() {
+            return {
+                theater1: "/src/assets/graphic_design/theater_poster.png",
+                theater1Alt: "Lorem",
+                theaterClass: "theater"
+            };
         },
 
         name: "GraphicDesign",
     }
+
+    
 </script>
 
 <template>
@@ -23,7 +35,7 @@
             </div>
         </div>
         <div class="segment-picture-side">
-            <img class="theater" src="/src/assets/graphic_design/theater_poster.png"/>
+            <LightboxImage :imageClass="theaterClass" :image="theater1" :altText="theater1Alt" />
             <img class="theater" src="/src/assets/graphic_design/theater_flyer.png" />
         </div>
     </div>
