@@ -1,0 +1,44 @@
+@import '/src/css/config';
+
+.image-container {
+    display: block;
+}
+
+.image-container img {
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.lightbox img {
+    max-width: 85%;
+    max-height: 85%;
+}
+
+.close-btn {
+    color: $black;
+    font-size: 40px;
+    font-family: $paragraph-font;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: $white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 50%;
+}

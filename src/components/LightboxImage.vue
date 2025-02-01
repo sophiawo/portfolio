@@ -1,17 +1,16 @@
 <template>
-    <div>
-      <div class="image-container">
-        <img :src="image" :class="imageClass" :alt="altText" @click="openLightbox" />
-      </div>
-      
-      <div v-if="isLightboxOpen" class="lightbox" role="dialog" aria-modal="true" aria-label="Bildanzeige">
-        <button class="close-btn" @click="closeLightbox" aria-label="Schließen">X</button>
-        <img :src="image" alt="Vergrößertes Bild" />
-      </div>
+  <div>
+    <div class="image-container">
+      <img :src="image" :class="imageClass" :alt="altText" @click="openLightbox" />
     </div>
-  </template>
+    <div v-if="isLightboxOpen" class="lightbox" role="dialog" aria-modal="true" aria-label="Bildanzeige">
+      <button class="close-btn" @click="closeLightbox" aria-label="Schließen">X</button>
+      <img :src="image" alt="Vergrößertes Bild" />
+    </div>
+  </div>
+</template>
   
-  <script>
+<script>
   export default {
     props: {
       image: {
@@ -50,43 +49,8 @@
       });
     }
   };
-  </script>
+</script>
   
-  <style scoped>
-  .image-container {
-    display: block;
-  }
-
-  .image-container img {
-    cursor: pointer;
-    object-fit: cover;
-  }
-
-  .lightbox {
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-  }
-
-  .lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-  }
-
-  .close-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 5px;
-  }
-
-  </style>
+<style scooped lang="scss">
+  @import '/src/css/components/lighboxImage.scss';
+</style>
