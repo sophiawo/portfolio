@@ -1,9 +1,22 @@
 <script>
     import MyButton from '../MyButton.vue';
+    import LightboxImage from '../LightboxImage.vue';
 
     export default{
         components: {
             MyButton,
+            LightboxImage
+        },
+
+        data() {
+            return {
+                photography1class: "photography-img1",
+                photography1: "/src/assets/photography/photography_1.png",
+                photography1Alt: "Lorem",
+                photography2class: "photography-img2",
+                photography2: "/src/assets/photography/photography_2.png",
+                photography2Alt: "Lorem"
+            };
         },
 
         name: "PhotographySegment",
@@ -13,8 +26,8 @@
 <template>
     <div class="home-segment" id="photography">
         <div class="segment-picture-side">
-            <img id="photography-img1" src="/src/assets/photography/photography_1.png" />
-            <img id="photography-img2" src="/src/assets/photography/photography_2.png" />
+            <LightboxImage :imageClass="photography1class" :image="photography1" :altText="photography1Alt" />
+            <LightboxImage :imageClass="photography2class" :image="photography2" :altText="photography2Alt" />
         </div>
         <div class="rightside-ph">
             <h3 class="segment-heading" id="heading-photography">{{ $t("common.photographyCaps") }}</h3>

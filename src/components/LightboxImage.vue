@@ -53,8 +53,13 @@
   </script>
   
   <style scoped>
+  .image-container {
+    display: block;
+  }
+
   .image-container img {
     cursor: pointer;
+    object-fit: cover;
   }
 
   .lightbox {

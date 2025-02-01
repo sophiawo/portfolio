@@ -12,21 +12,8 @@
 .gradient-background {
     background: linear-gradient(300deg, $dark-green, $main-green, $light-green);
     background-size: 110% 110%;
-    animation: gradient 12s infinite;
-    overflow-x: hidden;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%
-    }
-}
 
 .gradient-background, #grain {
     margin: 0px;

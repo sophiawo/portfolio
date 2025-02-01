@@ -1,9 +1,23 @@
 <script>
     import MyButton from '../MyButton.vue';
+    import LightboxImage from '../LightboxImage.vue';
 
     export default{
         components: {
             MyButton,
+            LightboxImage
+        },
+
+        data() {
+            return {
+                interfaceClass: "interface-img",
+                interfaceImg1: "/src/assets/interface_design/sign_up_screen.png",
+                interfaceImg1Alt: "Lorem",
+                interfaceImg2: "/src/assets/interface_design/main_screen.png",
+                interfaceImg2Alt: "Lorem",
+                interfaceImg3: "/src/assets/interface_design/achievements_screen.png",
+                interfaceImg3Alt: "Lorem"
+            };
         },
 
         name: "InterfaceDesign",
@@ -13,9 +27,9 @@
 <template>
     <div class="home-segment" id="interface-design">
         <div class="segment-picture-side">
-            <img class="interface-img" src="/src/assets/interface_design/sign_up_screen.png" />
-            <img class="interface-img" src="/src/assets/interface_design/main_screen.png" />
-            <img class="interface-img" src="/src/assets/interface_design/achievements_screen.png" />
+            <LightboxImage :imageClass="interfaceClass" :image="interfaceImg1" :altText="interfaceImg1Alt" />
+            <LightboxImage :imageClass="interfaceClass" :image="interfaceImg2" :altText="interfaceImg2Alt" />
+            <LightboxImage :imageClass="interfaceClass" :image="interfaceImg3" :altText="interfaceImg3Alt" />
         </div>
         <div class="rightside-id">
             <h3 class="segment-heading" id="heading-interface">{{ $t("common.interfaceDesignCaps") }}</h3>

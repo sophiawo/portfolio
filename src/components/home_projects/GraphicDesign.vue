@@ -10,9 +10,11 @@
 
         data() {
             return {
+                theaterClass: "theater",
                 theater1: "/src/assets/graphic_design/theater_poster.png",
                 theater1Alt: "Lorem",
-                theaterClass: "theater"
+                theater2: "/src/assets/graphic_design/theater_flyer.png",
+                theater2Alt: "Lorem"
             };
         },
 
@@ -36,7 +38,7 @@
         </div>
         <div class="segment-picture-side">
             <LightboxImage :imageClass="theaterClass" :image="theater1" :altText="theater1Alt" />
-            <img class="theater" src="/src/assets/graphic_design/theater_flyer.png" />
+            <LightboxImage :imageClass="theaterClass" :image="theater2" :altText="theater2Alt" />
         </div>
     </div>
 </template>
