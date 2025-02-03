@@ -15,9 +15,16 @@
     
 }
 
-//First segment of the footer: logo and name
+#first-footer, #sitemap-footer, #contact-footer {
+    display:flex;
+}
+
+#sitemap-footer, #contact-footer {
+    flex-direction: column;
+}
+
+
 #first-footer {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 2.2vw;
@@ -35,29 +42,36 @@
     }
 }
 
-//Second segment of the footer: sitemap
-#sitemap-footer {
+#sitemap-footer a, .contact-footer-line a {
+    margin: 1.5vh 0px;
+    font-family: $heading-font;
+    font-weight: $heading-weight-regular;
+    font-size: $h6-desktop-size;
+    color: $white;
+}
+
+#contact-footer {
+    margin-right: 2.2vw;
+}
+
+.contact-footer-line {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 
     a {
-        margin: 1.5vh 0px;
-        font-family: $heading-font;
-        font-size: $h6-desktop-size;
-        font-weight: $heading-weight-regular;
-        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $white;
+        }
     }
 }
 
-//Third segment of the footer: location and email
-#contact-footer {
-    margin-right: 2.2vw;
-    font-family: $heading-font;
-    font-size: $h6-desktop-size;
-    font-weight: $heading-weight-regular;
+.contact-icon {
+    display: flex;
     color: $white;
-
-    p {
-        margin: 1.5vh 0px;
-    }
+    font-size: $h6-desktop-size;
+    margin-right: 1vw;
 }

@@ -8,6 +8,7 @@
 
 .divider {
     margin: 0px 5px;
+    font-weight: $heading-weight-black;
 }
 
 button {
@@ -19,11 +20,12 @@ button {
     cursor: pointer;
     min-width: 50px;
 
+    &:hover {
+        font-weight: $heading-weight-black;
+        transition: font-weight 0.3s ease-in-out,
+    }
+
     &.active {
         font-weight: $heading-weight-black;
     }
-}
-
-button.active {
-    font-weight: $heading-weight-black;
 }

@@ -33,10 +33,11 @@
     transition: font-weight 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
     justify-content: center;
     display: inline-flex;
-}
 
-.links a:hover {
-    font-weight: $heading-weight-black;
-    letter-spacing: 0.1em;
-    text-decoration: underline;
+    &:hover {
+        font-weight: $heading-weight-black;
+        letter-spacing: 0.1em;
+        text-decoration: underline;
+        text-decoration-color: $white;
+    }
 }
