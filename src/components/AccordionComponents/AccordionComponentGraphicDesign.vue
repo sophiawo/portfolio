@@ -13,6 +13,8 @@
       <div class="content-accordion">
         <h4>12 ANGRY MEN</h4>
         <p>Lorem lorem</p>
+        <h4>COMMUNICATING DOORS</h4>
+        <p>Lorem lorem</p>
       </div>
     </div>
 </template>
