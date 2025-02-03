@@ -18,7 +18,7 @@
             <p class="web-text, segment-text"> {{ $t('homepage.webDesignMore') }} </p>
             <div class="segment-button-flexbox" id="button-flexbox-web">
                 <div class="segment-button" id="web-button">
-                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'homepage.webDesignButton'" />
+                    <MyButton class="segment-button-black" @click="$router.push({ path: '/projects', hash: '#web-design-accordion' })" :buttonTextKey="'homepage.webDesignButton'" />
                 </div>
             </div>
         </div>

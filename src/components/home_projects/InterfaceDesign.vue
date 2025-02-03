@@ -37,7 +37,7 @@
             <p class="interface-text, segment-text"> {{ $t("homepage.interfaceDesignMore") }} </p>
             <div class="segment-button-flexbox" id="button-flexbox-interface">
                 <div class="segment-button">
-                    <MyButton class="segment-button-black" @click="$router.push('projects')" :buttonTextKey="'homepage.interfaceDesignButton'" />
+                    <MyButton class="segment-button-black" @click="$router.push({ path: '/projects', hash: '#interface-design-accordion'})" :buttonTextKey="'homepage.interfaceDesignButton'" />
                 </div>
             </div>
         </div>

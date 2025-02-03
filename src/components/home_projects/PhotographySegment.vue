@@ -36,7 +36,7 @@
             <p class="photography-text, segment-text"> {{ $t("homepage.photographyMore") }} </p>
             <div class="segment-button-flexbox" id="button-flexbox-photography">
                 <div class="segment-button">
-                    <MyButton class="segment-button-white" @click="$router.push('projects')" :buttonTextKey="'homepage.photographyButton'" />
+                    <MyButton class="segment-button-white" @click="$router.push({ path: '/projects', hash: '#photography-accordion' })" :buttonTextKey="'homepage.photographyButton'" />
                 </div>
             </div>
         </div>
