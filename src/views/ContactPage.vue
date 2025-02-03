@@ -1,5 +1,9 @@
 <template>
     <div class="contact">
-        <h1>Contact</h1>
+        <h2> {{ $t("common.contactCaps") }}</h2>
     </div>
 </template>
+
+<style scoped lang="scss">
+@import '../css/contact.scss'
+</style>

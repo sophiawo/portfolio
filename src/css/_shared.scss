@@ -2,6 +2,8 @@
 @import './sharedcss/navAndFooter.scss';
 @import './sharedcss/homeSegments.scss';
 
+
+
 h2 {
     font-family: $heading-font;
     font-size: $h2-desktop-size;
@@ -9,6 +11,7 @@ h2 {
     color: $black;
     text-align: center;
     padding: 8.8vh 0px;
+    background-color: $white;
 }
 
 h4 {

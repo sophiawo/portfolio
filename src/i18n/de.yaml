@@ -10,6 +10,10 @@ common:
   webDesignCaps: "WEBDESIGN"
   photographyCaps: "FOTOGRAFIE"
 
+  aboutCaps: "ÜBER MICH"
+
+  contactCaps: "KONTAKT"
+
   germany: "Deutschland"
 
 homepage: 
@@ -71,3 +75,8 @@ homepage:
 
   photographyButton:
     "Lesen Sie mehr über Fotografie"
+
+projects:
+  graphicdesign:
+    twelveAngryMen: "DIE 12 GESCHWORENEN"
+    communicatingDoors: "DOPPELTÜREN"

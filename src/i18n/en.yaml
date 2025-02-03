@@ -10,6 +10,10 @@ common:
   webDesignCaps: "WEB DESIGN"
   photographyCaps: "PHOTOGRAPHY"
 
+  aboutCaps: "ABOUT"
+
+  contactCaps: "CONTACT"
+
   germany: "Germany"
 
 homepage: 
@@ -70,3 +74,8 @@ homepage:
 
   photographyButton:
     "read more about photography"
+
+projects:
+  graphicdesign:
+    twelveAngryMen: "12 ANGRY MEN"
+    communicatingDoors: "COMMUNICATING DOORS"

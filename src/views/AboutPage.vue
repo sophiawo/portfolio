@@ -1,5 +1,5 @@
 <template>
     <div class="about">
-        <h1>About</h1>
+        <h2> {{ $t("common.aboutCaps") }}</h2>
     </div>
 </template>
