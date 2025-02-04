@@ -31,6 +31,7 @@ export default {
       this.openAccordionFromHash();
     }
   },
+  
   methods: {
     openAccordionFromHash() {
       const hash = this.$route.hash;

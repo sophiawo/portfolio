@@ -1,3 +1,13 @@
+<script>
+export default {
+    methods: {
+        changeLanguage(lang) {
+            this.$i18n.locale = lang;
+        }
+    }
+};
+</script>
+
 <template>
     <div id="language-switcher">
         <button @click="changeLanguage('en')"
@@ -9,16 +19,6 @@
         >DEU</button>
     </div>
 </template>
-
-<script>
-export default {
-    methods: {
-        changeLanguage(lang) {
-            this.$i18n.locale = lang;
-        }
-    }
-};
-</script>
 
 <style scoped lang="scss">
 @import '/src/css/components/languageSwitcher.scss';
