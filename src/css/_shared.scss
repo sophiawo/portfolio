@@ -14,8 +14,41 @@ h2 {
     background-color: $white;
 }
 
+h3 {
+    font-family: $heading-font;
+    font-size: $h3-desktop-size;
+    font-weight: $heading-weight-black;
+}
+
 h4 {
     font-family: $heading-font;
     font-size: $h4-desktop-size;
     font-weight: $heading-weight-black;
+}
+
+.contact-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        margin: 1.5vh 0px;
+        font-family: $heading-font;
+        font-weight: $heading-weight-regular;
+        font-size: $h6-desktop-size;
+        color: $white;
+    
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: $white;
+        }
+    }
+}
+
+.contact-icon {
+    display: flex;
+    color: $white;
+    font-size: $h6-desktop-size;
+    margin-right: 1vw;
 }

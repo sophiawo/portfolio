@@ -42,7 +42,7 @@
     }
 }
 
-#sitemap-footer a, .contact-footer-line a {
+#sitemap-footer a {
     margin: 1.5vh 0px;
     font-family: $heading-font;
     font-weight: $heading-weight-regular;
@@ -52,26 +52,4 @@
 
 #contact-footer {
     margin-right: 2.2vw;
-}
-
-.contact-footer-line {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    a {
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-            text-decoration-color: $white;
-        }
-    }
-}
-
-.contact-icon {
-    display: flex;
-    color: $white;
-    font-size: $h6-desktop-size;
-    margin-right: 1vw;
 }

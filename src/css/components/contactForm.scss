@@ -1,0 +1,24 @@
+@import '/src/css/config';
+@import '/src/css/shared';
+
+.contact-form-container {
+    background-color: $light-green;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact-form-heading {
+    color: $black;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#contact-form-name-line {
+    flex-direction: row;
+}

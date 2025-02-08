@@ -19,11 +19,11 @@
                 <router-link to="/contact"> {{ $t("common.contact") }}</router-link>
             </li>
             <li id="contact-footer">
-                <div class="contact-footer-line">
+                <div class="contact-line">
                     <span class="material-symbols-outlined contact-icon">location_on</span>
                     <a href="https://maps.app.goo.gl/paPoRx39EvSCZiFFA">Augsburg, {{ $t("common.germany") }}</a>
                 </div>
-                <div class="contact-footer-line">
+                <div class="contact-line">
                     <span class="material-symbols-outlined contact-icon">mail</span>
                     <a href="mailto:sophia.m.wonka@gmail.com">sophia.m.wonka@gmail.com</a>
                 </div>
