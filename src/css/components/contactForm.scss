@@ -1,24 +1,84 @@
 @import '/src/css/config';
 @import '/src/css/shared';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .contact-form-container {
     background-color: $light-green;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-#contact-form-heading {
-    color: $black;
+    padding: 4.2vw 0;
 }
 
 #contact-form {
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    width: 60%;
+    width: 45%;
+    font-family: $paragraph-font;
+    font-size: $paragraph-desktop-size;
 }
 
-#contact-form-name-line {
+#contact-form p {
+    margin-bottom: 2.1vw;
+}
+
+#contact-first-line {
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-section {
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1vw 0;
+}
+
+label {
+    color: $black;
+    text-align: left;
+    margin-bottom: 1vw;
+}
+
+#name, #email, #message {
+    font-family: $paragraph-font;
+    font-size: $paragraph-desktop-size;
+    border-radius: 50px;
+    padding: 1vw;
+    border: 2px solid $black;
+    outline: none;
+    background-color: $white;
+
+    &:focus {
+        outline: 4px solid $black;
+        transition: outline 0.2s ease-in-out;
+    }
+}
+
+textarea {
+    resize: none;
+}
+
+#contact-send-button {
+    width: 40%;
+    align-self: flex-start;
+    padding: 20px 40px;
+    margin-top: 1vw;
+}
+
+#name-section {
+    margin-right: 0.5vw;
+}
+
+#email-section {
+    margin-left: 0.5vw;
 }

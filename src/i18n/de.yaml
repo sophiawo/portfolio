@@ -80,3 +80,6 @@ projects:
   graphicdesign:
     twelveAngryMen: "DIE 12 GESCHWORENEN"
     communicatingDoors: "DOPPELTÜREN"
+
+contact:
+  sendButton: "Nachricht senden"

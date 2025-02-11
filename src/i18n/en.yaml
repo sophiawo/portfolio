@@ -79,3 +79,6 @@ projects:
   graphicdesign:
     twelveAngryMen: "12 ANGRY MEN"
     communicatingDoors: "COMMUNICATING DOORS"
+
+contact:
+  sendButton: "send message"
