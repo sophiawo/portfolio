@@ -65,6 +65,7 @@ label {
 }
 
 textarea {
+    min-height: calc(1.5 * 1vw * 5);
     resize: none;
 }
 

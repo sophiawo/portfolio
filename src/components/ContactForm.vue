@@ -5,8 +5,14 @@ export default {
     components: {
         MyButton,
     },
-
-    name: "ContactForm"
+    name: "ContactForm",
+    methods: {
+        autoGrow(event) {
+            const element = event.target;
+            element.style.height = "auto";
+            element.style.height = element.scrollHeight + "px";
+        }
+    }
 }
 </script>
 
@@ -26,7 +32,7 @@ export default {
             </div>
             <div class="input-section" id="text-section">
                 <label for="message">Your message*</label>
-                <textarea id="message" name="message" rows="5" required aria-required="true" aria-label="message" placeholder="your website is really interessting..."></textarea>
+                <textarea @input="autoGrow" id="message" name="message" required aria-required="true" aria-label="message" placeholder="your website is really interessting..."></textarea>
             </div>
             <MyButton id="contact-send-button" class="segment-button-black" type="submit" aria-label="send" :buttonTextKey="'contact.sendButton'" />
         </form>
