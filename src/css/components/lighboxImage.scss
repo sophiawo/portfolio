@@ -26,8 +26,6 @@
 
 .close-btn {
     color: $black;
-    font-size: 40px;
-    font-family: $paragraph-font;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,6 +37,9 @@
     background: $white;
     border: none;
     cursor: pointer;
-    font-weight: bold;
     border-radius: 50%;
+}
+
+#close-icon {
+    font-size: 50px;
 }
