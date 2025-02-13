@@ -55,7 +55,7 @@
     transition: color 0.3s ease-in-out;
     
 
-    &:hover {
+    &:hover, &:focus {
         cursor: pointer;
         background-color: $black;
         color: $white;
@@ -69,7 +69,7 @@
     align-self: center;
     transition: color 0.3s ease-in-out;
 
-    &:hover {
+    &:hover, &:focus {
         cursor: pointer;
         background-color: $white;
         color: $black;

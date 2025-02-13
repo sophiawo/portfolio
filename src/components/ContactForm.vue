@@ -23,7 +23,7 @@ export default {
             <div id="contact-first-line">
                 <div class="input-section" id="name-section">
                     <label for="name">Name*</label>
-                    <input type="text" id="name" name="name" required aria-required="true" aria-label="name" placeholder="John">
+                    <input type="text" id="name" name="name" required aria-required="true" aria-label="name" placeholder="John Doe">
                 </div>
                 <div class="input-section" id="email-section">
                     <label for="email">E-Mail*</label>
@@ -34,7 +34,10 @@ export default {
                 <label for="message">Your message*</label>
                 <textarea @input="autoGrow" id="message" name="message" required aria-required="true" aria-label="message" placeholder="your website is really interessting..."></textarea>
             </div>
-            <MyButton id="contact-send-button" class="segment-button-black" type="submit" aria-label="send" :buttonTextKey="'contact.sendButton'" />
+            <div id="contact-last-line">
+                <MyButton id="contact-send-button" class="segment-button-black" type="submit" aria-label="send" :buttonTextKey="'contact.sendButton'" />
+                <p id="required-text">Fields with * are required!</p>
+            </div>
         </form>
     </div>
 </template>

@@ -40,13 +40,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 1vw 0;
+    margin: 1.5vw 0;
 }
 
 label {
     color: $black;
     text-align: left;
     margin-bottom: 1vw;
+    font-weight: 700;
 }
 
 #name, #email, #message {
@@ -54,12 +55,14 @@ label {
     font-size: $paragraph-desktop-size;
     border-radius: 50px;
     padding: 1vw;
-    border: 2px solid $black;
+    border: 4px solid $black;
     outline: none;
     background-color: $white;
+    line-height: 1.5;
 
     &:focus {
-        outline: 4px solid $black;
+        outline: 5px solid $black;
+        outline-offset: -1px;
         transition: outline 0.2s ease-in-out;
     }
 }
@@ -69,11 +72,21 @@ textarea {
     resize: none;
 }
 
+#contact-last-line {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #contact-send-button {
     width: 40%;
-    align-self: flex-start;
     padding: 20px 40px;
-    margin-top: 1vw;
+}
+
+#required-text {
+    align-self: center;
 }
 
 #name-section {
@@ -82,4 +95,33 @@ textarea {
 
 #email-section {
     margin-left: 0.5vw;
+}
+
+//change color of placeholder for most browsers
+//note: can't be grouped together!
+
+*::-webkit-input-placeholder {
+    color: $black-75;
+}
+
+*:-moz-placeholder {
+    color: $black-75;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: $black-75;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: $black-75;
+}
+
+*::-ms-input-placeholder {
+    color: $black-75;
+}
+
+*::placeholder {
+    color: $black-75;
 }
