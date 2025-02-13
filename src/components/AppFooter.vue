@@ -21,7 +21,7 @@
             <li id="contact-footer">
                 <div class="contact-line">
                     <span class="material-symbols-outlined contact-icon">location_on</span>
-                    <a href="https://maps.app.goo.gl/paPoRx39EvSCZiFFA">Augsburg, {{ $t("common.germany") }}</a>
+                    <a target="_blank" href="https://maps.app.goo.gl/paPoRx39EvSCZiFFA">Augsburg, {{ $t("common.germany") }}</a>
                 </div>
                 <div class="contact-line">
                     <span class="material-symbols-outlined contact-icon">mail</span>
