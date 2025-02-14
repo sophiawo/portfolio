@@ -1,10 +1,10 @@
 <script>
 import HeroSection from '@/components/HeroSection.vue';
-import GraphicDesign from '@/components/home_projects/GraphicDesign.vue';
-import InterfaceDesign from '@/components/home_projects/InterfaceDesign.vue';
-import PhotographySegment from '@/components/home_projects/PhotographySegment.vue';
-import WebDesign from '@/components/home_projects/WebDesign.vue';
-import WebDesignExample from '@/components/home_projects/WebDesignExample.vue';
+import GraphicDesign from '@/components/homeProjects/GraphicDesign.vue';
+import InterfaceDesign from '@/components/homeProjects/InterfaceDesign.vue';
+import PhotographySegment from '@/components/homeProjects/PhotographySegment.vue';
+import WebDesign from '@/components/homeProjects/WebDesign.vue';
+import WebDesignExample from '@/components/homeProjects/WebDesignExample.vue';
 
 export default {
     components: {
