@@ -50,7 +50,7 @@ label {
     font-weight: 700;
 }
 
-#name, #email, #message {
+input, textarea {
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
     border-radius: 50px;
@@ -59,8 +59,9 @@ label {
     outline: none;
     background-color: $white;
     line-height: 1.5;
+    width: 100%;
 
-    &:focus {
+    &:focus:not(:user-invalid) {
         outline: 5px solid $black;
         outline-offset: -1px;
         transition: outline 0.2s ease-in-out;
@@ -96,6 +97,48 @@ textarea {
 #email-section {
     margin-left: 0.5vw;
 }
+
+input:user-invalid {
+    border: 4px solid red;
+
+    &:focus {
+        outline: 5px solid red;
+        outline-offset: -1px;
+        transition: outline 0.2s ease-in-out;
+    }
+}
+
+.error-message {
+    display: none;
+    font-size: $paragraph-desktop-size;
+    margin-top: 1vw;
+    text-align: left;
+}
+
+.input-container {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-invalid-icon {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    font-size: 1.5vw;
+}
+
+.input-section:has(input:user-invalid) .contact-invalid-icon {
+    display: inline;
+}
+
+.input-section:has(input:user-invalid) .error-message {
+    display: block;
+}
+
 
 //change color of placeholder for most browsers
 //note: can't be grouped together!
