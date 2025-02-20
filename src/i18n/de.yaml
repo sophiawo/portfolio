@@ -82,4 +82,29 @@ projects:
     communicatingDoors: "DOPPELTÜREN"
 
 contact:
+  formTitle: "KONTAKTFORMULAR"
+  formDescription: 
+    "Füllen Sie dieses Formular aus, um mich direkt zu kontaktieren!"
+
+  nameLabel: "Name*"
+  nameTitle: 
+    "Nur Buchstaben, Leerzeichen und Kurzstriche sind erlaubt. Mindestens zwei Zeichen."
+  namePlaceholder: "Max Mustermann"
+  nameError: "Bitte geben Sie einen gültigen Namen ein!"
+
+  emailLabel: "E-Mail"
+  emailTitle:
+    "Muss ein @-Zeichen beinhalten."
+  emailPlaceholder: "max.mustermann@beispiel.de"
+  emailError: "Bitte geben Sie eine gültige E-Mail-Adresse ein!"
+
+  messageLabel: "Ihre Nachricht an mich*"
+  messageTitle:
+   "Geben Sie hier Ihre Nachricht an mich ein!"
+  messagePlaceholder: 
+    "Deine Webseite ist sehr interessant..."
+
+  requiredText: 
+    "Alle Felder mit * müssen ausgefüllt werden!"
+
   sendButton: "Nachricht senden"

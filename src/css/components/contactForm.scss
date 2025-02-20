@@ -23,9 +23,14 @@
     width: 45%;
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
+
+    p {
+        margin-bottom: 2.1vw;
+    }
 }
 
-#contact-form p {
+#form-title {
+    color: $black;
     margin-bottom: 2.1vw;
 }
 
@@ -68,6 +73,16 @@ input, textarea {
     }
 }
 
+input:user-invalid {
+    border: 4px solid red;
+
+    &:focus {
+        outline: 5px solid red;
+        outline-offset: -1px;
+        transition: outline 0.2s ease-in-out;
+    }
+}
+
 textarea {
     min-height: calc(1.5 * 1vw * 5);
     resize: none;
@@ -82,7 +97,7 @@ textarea {
 }
 
 #contact-send-button {
-    width: 40%;
+    min-width: 40%;
     padding: 20px 40px;
 }
 
@@ -96,16 +111,6 @@ textarea {
 
 #email-section {
     margin-left: 0.5vw;
-}
-
-input:user-invalid {
-    border: 4px solid red;
-
-    &:focus {
-        outline: 5px solid red;
-        outline-offset: -1px;
-        transition: outline 0.2s ease-in-out;
-    }
 }
 
 .error-message {

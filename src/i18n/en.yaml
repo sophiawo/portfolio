@@ -81,4 +81,29 @@ projects:
     communicatingDoors: "COMMUNICATING DOORS"
 
 contact:
+  formTitle: "CONTACT FORM"
+  formDescription: 
+    "Fill out this contact form to contact me directly!"
+ 
+  nameLabel: "Name*"
+  nameTitle: 
+    "Only letters, spaces, and hyphens are allowed. At least two characters."
+  namePlaceholder: "John Doe"
+  nameError: "Please enter a valid name!"
+
+  emailLabel: "Email*"
+  emailTitle: 
+    "Must include a @ symbol."
+  emailPlaceholder: "john.doe@example.com"
+  emailError: "Please enter a valid email!"
+
+  messageLabel: "Your message to me*"
+  messageTitle: 
+    "Type your message to me here!"
+  messagePlaceholder: 
+    "your website is really interessting..."
+
+  requiredText: 
+    "Fields with * are required!"
+
   sendButton: "send message"

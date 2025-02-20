@@ -4,7 +4,7 @@
       <img :src="image" :class="imageClass" :alt="altText" @click="openLightbox" />
     </div>
     <div v-if="isLightboxOpen" class="lightbox" role="dialog" aria-modal="true" aria-label="Bildanzeige">
-      <button class="close-btn" @click="closeLightbox" aria-label="Schließen">
+      <button class="close-btn" @click="closeLightbox" aria-label="Close">
         <span class="material-symbols-outlined" id="close-icon">close</span>
       </button>
       <img :src="image" alt="Vergrößertes Bild" />
