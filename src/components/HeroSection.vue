@@ -12,16 +12,16 @@
 
 <template>
     <div id="hero-section">
-            <div class="gradient-background">
-                <img id="grain" src="../assets/hero_section/grain1.png">
+            <div class="gradient-background" aria-hidden="true">
+                <img id="grain" aria-hidden="true" src="../assets/hero_section/grain1.png">
             </div>
             <div id="hero-content">
                 <img id="me-picture" src="../assets/hero_section/itsme.png">
-                <h1>SOPHIA M. WONKA</h1>
+                <h1 lang="de">SOPHIA M. WONKA</h1>
                 <p id="golden-ticket"> {{ $t("homepage.goldenticket") }}</p>
                 <div id="experience">
                     <p class="experience1"> {{ $t("homepage.experiencein") }}</p>
-                    <p class="experience2">UX/UI Design // Frontend Web Developement // Digital Accessability // Animation</p>
+                    <p lang="en" class="experience2">UX/UI Design // Frontend Web Developement // Digital Accessability // Animation</p>
                     <p class="experience3"> {{ $t("homepage.muchmore") }} </p>
                 </div>
                 <div id="hero-button">
