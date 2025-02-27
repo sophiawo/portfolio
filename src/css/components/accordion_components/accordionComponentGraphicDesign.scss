@@ -5,3 +5,23 @@
 .content-accordion {
     color: $black;
 }
+
+:deep(.project-gd-picture) {
+    max-width: 20vw;
+    height: auto;
+    margin-left: 2.1vw;
+}
+
+.tam-content-flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.tam-content-text-container {
+    max-width: 80%;
+}
+
+p {
+    line-height: 3.4vh;
+    margin-bottom: 1vh;
+}
