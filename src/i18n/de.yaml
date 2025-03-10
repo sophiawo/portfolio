@@ -5,7 +5,7 @@ common:
   contact: "Kontakt"
 
   projectsCaps: "PROJEKTE"
-  graphicDesignCaps: "GRAFIKDEDIGN"
+  graphicDesignCaps: "GRAFIKDESIGN"
   interfaceDesignCaps: "INTERFACEDESIGN"
   webDesignCaps: "WEBDESIGN"
   photographyCaps: "FOTOGRAFIE"
@@ -79,6 +79,50 @@ homepage:
 projects:
   graphicdesign:
     twelveAngryMen: "DIE 12 GESCHWORENEN"
+    tamtext1:
+      "Seit 2023 bin ich Teil der So1Theater-Theater-Gruppe in Augsburg. Für unsere
+      2024 Sommerproduktion habe ich die Aufgabe übernommen, ein Plakat und Flyer 
+      für unser Stück 'Die zwölf Geschworenen' zu entwerfen. In den folgenden Zeilen
+      möchte ich gerne den Prozess hinter der Gestaltung ausführen."
+    tamtext2:
+      "Das Theaterstück bassiert auf einem gleichnamigen amerikanischen Film aus den
+      1950er Jahren. Zwölf Geschwörene müssen sich entscheiden, ob ein 18-jähriger Immigrant
+      des Mordes an seinem Vater schuldig ist. Am Anfang ist jeder der Geschworenen von der
+      Schuld des Jungen überzeugt - alle bis auf einen. Während der oft hitzigen Debatten, die
+      folgen, kommen die versteckten Motive hinter den Entscheidungen der einzelnen Geschworenen
+      ans Tageslicht."
+    tamtext3:
+      "Mein erster Schritt war es, mögliche visuelle ELemente, die ich für das Design verwernden
+      könnte, zu suchen. Hierfür überflog ich den Text zunächst und sammelte alles, das interessant
+      sein könnte - ein Messer, eine Statue von Justisia und viele andere Motive. Im gleichen 
+      Atemzug habe ich auch einen Blick auf Film- und Theaterplakate zu dem Film, beziehungsweise
+      dem Theaterstück, geworfen. Auch hier konnte ich viele Motive aufgreifen. Besonders
+      herausgestochen haben hier die sehr starken Kontraste der Poster und das Herausheben
+      von einem von zwölf Elementen."
+    tamtext4:
+      "Ich wählte die Farben mit dem maximalen Kontrast - Rot, Weiß und Schwarz. Diese Farben hatten
+      nicht nur den Vorteil, dass sie unter den hunderten von Plakaten, die am Campus verteilt hängen,
+      deutlich herausstechen, sondern auch, dass der harsche Kontrast den Konflikt und die teilweise
+      gegenseitigen Meinungen und Ansichten der Geschworenen wiederspiegelt. Ich wählte zudem ein Messer
+      als zentrales Element. Auf dem Plakat trennt es die Personen, die abgebildet sind, was auch zeigt,
+      wie unseins die Geschworenen bei ihrer Aufgabe sind. Das Messer erzeugt sogar einen großen Spalt,
+      was zusätzlich verdeutliche soll, wie gespalten die Personen im Stück sind und wie scheinbar
+      unüberbrückbar die Meinungsverschiedenheiten scheinen. Fast alle Elemente auf dem Poster sind
+      geneigt, nichts ist wirklich gerade. Dadurch erzeuge ich Bewegung und Unbehagen."
+    tamtext5:
+      "Mit jedem Element, das auf dem Plakat sichtbar ist, habe ich versucht, die Grundstimmung
+      und den Inhalt des Theaterstücks visuell zu verarbeiten und darzustellen."
+    tamtext6:
+      "Der Flyer besteht aus dem Poster als Vorderseite und einem kurzen Text zum Inhalt des Stückes
+      auf der Rückseite. Elemente von der Vorderseite werden hinten aufgegriffen, wie die roten
+      Spalten und der ungerade Verlauf des unteren Teils."
+
+    tam1under: "Sammlung möglicher Motive"
+    tam2under: "Verschiedene Film- und Theaterplakate"
+    tam3under: "Erste Skizze des finalen Designs"
+    tam4under: "Die finale Version des Posters"
+    tam5under: "Unbenutzter Entwurf"
+    tam6under: "Die Rückseite des Flyers"
 
     
     

@@ -84,25 +84,40 @@ projects:
       task of designing the poster and flyer for the play. I want to explain 
       the process behind the design a bit in the following text."
     tamtext2: 
-      "The play is based on an Amercan movie from the 1950s. Twelve jurors 
-      must decide whether an 18-year-old immigrant is hulty of murdering his father 
+      "The play is based on an American movie from the 1950s. Twelve jurors 
+      must decide whether an 18-year-old immigrant is guilty of murdering his father 
       or not. In the beginning everyone is sure of the boy’s guilt – everyone but 
-      one juror. During the often-heated discussions the ulterior motives behind the 
-      jurors decicions come to light."
+      one juror. During the following often-heated discussions the ulterior motives behind the 
+      juror's decicions come to light."
     tamtext3:
-      "I started by looking at possible viusal elements for the design. I scimmed 
-      through the text and collected everything that could be of interest. In the 
-      same step I also looked at movie and theater play posters to get inspired and 
-      pick up common motives among the different designs."
+      "I started by looking at possible viusal elements for the design. I skimmed 
+      through the text and collected everything that could be of interest - from knives
+      to statues of Justicia and various other motives. In the same step I also 
+      looked at movie and theater play posters to get inspiration and 
+      pick up common motives among the different designs, like very strong contrasts
+      and setting appart one of twelve elements."
     tamtext4:
       "I chose colors with maximum contrast – red, white and black. Those not only 
       stand out amongst the huge number of posters hanging around the campus but also 
-      reflect the partialy opposite oppinions of the jurors. I picked a knive as the 
+      reflect the partialy opposite oppinions of the jurors. I also picked a knive as the 
       center element. On the poster it seperates the people, again showing how divided 
-      the jurors are on the matter. Almost all the elements on the poster are tilted, 
+      the jurors are on the matter. The knive also creates a gap between the people on 
+      the poster, showing once more, how divided the jurors are and how their different
+      opinions seem unbridgeable. Almost all the elements on the poster are tilted, 
       causing motion and unrest, as well as discomfort."
     tamtext5:
       "With every element on the poster, I tried to emulate the feeling and content of the play."
+    tamtext6:
+      "The flyer consists of the poster on the front and a short text about the play on the back.
+      Elements from the front continue on the back, like the red gaps and the uneven part at the
+      bottom."
+
+    tam1under: "A collection of possible motives"
+    tam2under: "Different movie and theater posters"
+    tam3under: "First sketch of the final design"
+    tam4under: "The final version of the poster"
+    tam5under: "Unused sketch"
+    tam6under: "The back of the flyer"
 
     communicatingDoors: "COMMUNICATING DOORS"
 
