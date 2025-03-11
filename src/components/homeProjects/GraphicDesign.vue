@@ -11,9 +11,9 @@
         data() {
             return {
                 theaterClass: "theater",
-                theater1: "/src/assets/graphic_design/theater_poster.png",
+                theater1: "/src/assets/graphic_design/angry_men1.png",
                 theater1Alt: "Lorem",
-                theater2: "/src/assets/graphic_design/theater_flyer.png",
+                theater2: "/src/assets/graphic_design/angry_men4.png",
                 theater2Alt: "Lorem"
             };
         },

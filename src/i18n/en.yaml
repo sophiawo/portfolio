@@ -120,6 +120,18 @@ projects:
     tam6under: "The back of the flyer"
 
     communicatingDoors: "COMMUNICATING DOORS"
+    cdtext1:
+      "Sadly I was absent for the next production and the shows in January 2025 because I was 
+      studying abroard in Norway. But this didn't stop me to still contribute something to the 
+      group."
+    cdtext2_part1:
+      "The theater group has two designers - Carina Huber (klick the following Link to visite her 
+      Instagram profile: "
+    cdtext2Link: "Carina Huber's Instagram profile "
+    cdtext2_part2:
+      "and me - and for this production we split up the design tasks between us 
+      two. Carina took care of the poster and the flyers while I designed the programm booklet and 
+      the free tickets."
 
 contact:
   formTitle: "CONTACT FORM"
