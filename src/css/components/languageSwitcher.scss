@@ -2,13 +2,12 @@
 
 #language-switcher {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .divider {
     margin: 0px 5px;
     font-weight: $heading-weight-black;
+    font-size: $paragraph-desktop-size;
 }
 
 button {
