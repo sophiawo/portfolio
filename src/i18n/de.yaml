@@ -124,9 +124,30 @@ projects:
     tam5under: "Unbenutzter Entwurf"
     tam6under: "Die Rückseite des Flyers"
 
-    
-    
     communicatingDoors: "DOPPELTÜREN"
+    cdtext1:
+      "Bei der nächsten Produktion der So1Theater Theatergruppe konnte ich leider nicht mitspielen. 
+      Während den Proben für die Aufführungen im Januar 2025 befand ich mich im Auslandssemester in 
+      Norwegen. Das hielt mich jedoch nicht davon ab, meinen Beitrag zur Produktion „Doppeltüren“ zu 
+      leisten."
+    cdtext2:
+      "Die Gruppe hat zwei Designerinnen – Carina Huber (Klicken Sie auf den folgenden Link um ihr 
+      Instagram Profil zu besuchen: ) und mich – und für diese Produktion 
+      haben wir uns die Arbeit von vornherein aufgeteilt. Carina übernahm das Poster und die Flyer und 
+      ich durfte mich mit dem Programmheft und den Freikarten begnügen."
+    cdtext2Link: "Carina Hubers Instagram Profil"
+    cdtext3: 
+      "Doch zunächst einmal etwas zum Stück selbst: Dem Tode nah möchte Reece Wells die Welt wissen 
+      lassen, in was für üble Machenschaften er und sein Partner und Freund Julian Goodman verwickelt 
+      waren. Nicht nur das – um die Firma zu retten hat Julian sogar beide von Reeces Ehefrauen umgebracht! 
+      Als Reece das erfährt, beschließt er, ein Geständnis zu schreiben, das von Zeugen unterschrieben 
+      werden muss. Da er unter dauernder Bewachung von Julian steht, bestellt er sich zum Scheine eine Dame 
+      der Nacht – Poopay -  in das Hotelzimmer, in dem er seit geraumer Zeit lebt. Eins führt zum anderen 
+      und ehe sie sich versieht, ist Poppay in eine wirre Zeitreise verwickelt, in der es darum geht nicht 
+      nur sie, sondern die beiden Ehefrauen von Reece vor dem mordlustigen Julian zu retten."
+    cdtext4:
+      "Zu Beginn der Produktion war noch nicht klar, wer das Poster designen darf. Aus diesem Grund 
+      habe auch ich Entwürfe angefertigt."
 
 contact:
   formTitle: "KONTAKTFORMULAR"
