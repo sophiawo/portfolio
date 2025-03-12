@@ -11,6 +11,11 @@
     margin-left: 2.1vw;
 }
 
+.lightbox-img.active {
+    width: 20vw;
+    height:auto;
+}
+
 .rightside-id {
     display: flex;
     flex-direction:column;
