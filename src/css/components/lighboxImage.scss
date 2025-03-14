@@ -1,7 +1,8 @@
 @import '/src/css/config';
 
 .image-container {
-    display: block;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .image-container img {
@@ -48,11 +49,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 250px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: 60px;
-    right: 60px;
+    top: 20px;
+    right: 20px;
     background: $white;
     border: none;
     cursor: pointer;
@@ -60,5 +61,5 @@
 }
 
 #close-icon {
-    font-size: 150px;
+    font-size: 50px;
 }

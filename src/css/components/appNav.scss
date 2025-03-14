@@ -57,7 +57,7 @@
     a {
         font-size: $paragraph-desktop-size;
         color: $black-75;
-        min-width: 800px;
+        min-width: 200px;
         flex-shrink: 0;
 
         &.router-link-exact-active {
