@@ -1,5 +1,5 @@
-@import '/src/css/config';
-@import '/src/css/shared';
+@use '/src/css/config';
+@use '/src/css/shared';
 
 #hero-section {
     margin: 0px;
@@ -11,7 +11,7 @@
 }
 
 .gradient-background {
-    background: linear-gradient(300deg, $dark-green, $main-green, $light-green);
+    background: linear-gradient(300deg, config.$dark-green, config.$main-green, config.$light-green);
     background-size: 110% 110%;
 }
 
@@ -50,19 +50,19 @@ h1{
     top: calc(20vh - 8.8vh);
     right: 8%;
     width: 50%;
-    font-size: $h1-desktop-size;
-    font-family: $heading-font;
-    font-weight: $heading-weight-black;
-    color: $black;
+    font-size: config.$h1-desktop-size;
+    font-family: config.$heading-font;
+    font-weight: config.$heading-weight-black;
+    color: config.$black;
 }
 
 #golden-ticket {
     top: 45vh;
     right: 12%;
-    font-family: $special-font;
-    font-weight: $special-weight;
-    font-size: $special-desktop-size;
-    color: $white;
+    font-family: config.$special-font;
+    font-weight: config.$special-weight;
+    font-size: config.$special-desktop-size;
+    color: config.$white;
 }
 
 #experience {
@@ -72,28 +72,28 @@ h1{
 }
 
 .experience1 {
-    font-family: $heading-font;
-    font-weight: $heading-weight-regular;
-    font-size: $h5-desktop-size;
-    color: $white;
+    font-family: config.$heading-font;
+    font-weight: config.$heading-weight-regular;
+    font-size: config.$h5-desktop-size;
+    color: config.$white;
     padding-bottom: 8px;
 }
 
 .experience2 {
     width: 90%;
-    font-family: $heading-font;
-    font-weight: $heading-weight-regular;
-    font-size: $h6-desktop-size;
-    color: $white;
+    font-family: config.$heading-font;
+    font-weight: config.$heading-weight-regular;
+    font-size: config.$h6-desktop-size;
+    color: config.$white;
     padding: 8px 0px;
 }
 
 
 .experience3 {
-    font-family: $heading-font;
-    font-weight: $heading-weight-black;
-    font-size: $h6-desktop-size;
-    color: $white;
+    font-family: config.$heading-font;
+    font-weight: config.$heading-weight-black;
+    font-size: config.$h6-desktop-size;
+    color: config.$white;
     padding: 8px 0px;
 }
 
