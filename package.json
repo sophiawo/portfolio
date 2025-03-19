@@ -10,19 +10,25 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@eslint/config-array": "^0.19.2",
+    "@eslint/object-schema": "^2.1.6",
     "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "glob": "^11.0.1",
     "js-yaml": "^4.1.0",
     "json5": "^2.2.3",
+    "rimraf": "^6.0.1",
     "vue": "^3.4.29",
     "vue-i18n": "^10.0.3",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
-    "eslint": "^8.57.0",
+    "eslint": "^9.22.0",
     "eslint-plugin-vue": "^9.23.0",
     "sass-embedded": "^1.79.3",
-    "vite": "^5.3.1",
+    "vite": "^6.2.2",
     "yaml-loader": "^0.8.1"
   }
 }

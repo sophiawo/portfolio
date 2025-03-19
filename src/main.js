@@ -3,6 +3,8 @@ import App from './App.vue';
 import router from './router';
 import yaml from 'js-yaml';
 import { createI18n } from 'vue-i18n';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
 
 async function loadYaml(filePath) {
     const response = await fetch(filePath);
