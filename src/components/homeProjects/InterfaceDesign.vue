@@ -46,5 +46,5 @@
 
 
 <style scooped lang="scss">
-@import '/src/css/components/home_projects/interfacedesign.scss';
+@use '../../css/components/home_projects/homeSegment.scss';
 </style>

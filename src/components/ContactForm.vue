@@ -97,5 +97,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@import '../css/components/contactForm.scss'
+@use '../css/components/contactForm.scss';
 </style>

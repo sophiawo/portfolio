@@ -1,6 +1,4 @@
-@import '/src/css/config';
-@import '/src/css/shared';
-@import '/src/css/sharedcss/accordionShared.scss';
+@use '../../../config' as *;
 
 .content-accordion {
     color: $black;

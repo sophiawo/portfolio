@@ -17,5 +17,5 @@
 </template>
 
 <style scoped lang="scss">
-@import '/src/css/sharedcss/accordionShared.scss';
+@use '../../css/components/accordion/accordion.scss';
 </style>

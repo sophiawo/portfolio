@@ -1,10 +1,4 @@
-@import '/src/css/config';
-@import '/src/css/shared';
-
-* {
-    padding: 0px;
-    margin: 0px;
-}
+@use '../../config' as *;
 
 #nav{
     display: flex;

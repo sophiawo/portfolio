@@ -1,8 +1,11 @@
-@import '/src/css/config';
-@import '/src/css/shared';
+@use './shared';
+@use './components/accordion/accordion.scss';
+@use './components/home_projects/homeSegment.scss';
+@use './components/nav_and_footer/navAndFooter.scss';
+@use './config' as *;
 
-html, body {
-    padding: 0px;
-    margin: 0px;
+* {
+    margin: 0vw;
+    padding: 0vw;
     overflow-x: hidden;
 }

@@ -1,3 +1,8 @@
+@use './appFooter.scss';
+@use './appNav.scss';
+
+@use '../../config' as *;
+
 .logo {
     font-family: $logo-font;
     margin-right: 0.8vw;

@@ -1,4 +1,4 @@
-@import '/src/css/config';
+@use '../config' as *;
 
 .custom-button {
     background-color: $black;

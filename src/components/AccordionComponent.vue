@@ -65,5 +65,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@import '/src/css/components/accordion.scss';
+@use '../css/components/accordion/accordion.scss';
 </style>

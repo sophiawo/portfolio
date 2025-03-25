@@ -32,5 +32,5 @@
 </template>
 
 <style scoped lang="scss">
-@import '../css/components/herosection.scss'
+@use '../css/components/herosection.scss';
 </style>

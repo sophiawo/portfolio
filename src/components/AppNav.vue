@@ -31,5 +31,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@import '/src/css/components/appNav.scss';
+@use '../css/components/nav_and_footer/navAndFooter.scss';
 </style>

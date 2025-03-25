@@ -111,6 +111,5 @@ import LightboxImage from '../LightboxImage.vue';
 </template>
 
 <style scoped lang="scss">
-@import '/src/css/sharedcss/accordionShared.scss';
-@import '/src/css/components/accordion_components/accordionComponentGraphicDesign.scss';
+@use '../../css/components/accordion/accordion.scss';
 </style>

@@ -21,5 +21,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@import '/src/css/components/languageSwitcher.scss';
+@use '../css/components/languageSwitcher.scss';
 </style>

@@ -1,4 +1,4 @@
-@import '/src/css/config';
+@use '../config' as *;
 
 .image-container {
     display: inline-block;

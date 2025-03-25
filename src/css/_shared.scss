@@ -1,8 +1,4 @@
-@import './config';
-@import './sharedcss/navAndFooter.scss';
-@import './sharedcss/homeSegments.scss';
-
-
+@use './config' as *;
 
 h2 {
     font-family: $heading-font;

@@ -9,11 +9,6 @@
   <AppFooter/>
 </template>
 
-<style>
-
-* {
-  margin: 0vw;
-  padding: 0vw;
-}
-
+<style scoped lang="scss">
+@use './css/app.scss';
 </style>

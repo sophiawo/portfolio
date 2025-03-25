@@ -71,5 +71,5 @@
 </script>
   
 <style scooped lang="scss">
-  @import '/src/css/components/lighboxImage.scss';
+@use '../css/components/lighboxImage.scss';
 </style>
