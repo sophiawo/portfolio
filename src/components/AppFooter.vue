@@ -7,7 +7,7 @@
 <template>
     <div id="footer-puffer" class="w-100"></div>
     <footer id="footer" class="w-100">
-        <ul class="list">
+        <ul class="list d-flex flex-row justify-content-between align-items-center h-100">
             <li id="first-footer" class="d-flex justify-content-center align-items-center">
                 <span class="logo" id="logo-footer"><router-link to="/">W</router-link></span>
                 <span class="name" id="name-footer"><router-link to="/">SOPHIA M. WONKA</router-link></span>
