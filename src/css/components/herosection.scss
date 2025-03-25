@@ -3,9 +3,6 @@
 #hero-section {
     margin: 0px;
     padding: 0px;
-    position: relative;
-    height: 100vh;
-    width: 100%;
     margin-bottom: 8.8vh;
 }
 
@@ -18,10 +15,7 @@
 .gradient-background, #grain {
     margin: 0px;
     padding: 0px;
-    width: 100%;
     height: 91.2vh;
-    position: absolute;
-    z-index: 0;
 }
 
 #grain {
@@ -29,15 +23,6 @@
     object-fit: cover;
 }
 
-#hero-content {
-    width: 100%;
-    position: relative;
-    z-index: 2;
-}
-
-#me-picture, h1, #golden-ticket, #experience, #hero-button {
-    position: absolute;
-}
 
 #me-picture {
     top: calc(20vh - 8.8vh);
@@ -50,9 +35,19 @@ h1{
     right: 8%;
     width: 50%;
     font-size: $h1-desktop-size;
-    font-family: $heading-font;
-    font-weight: $heading-weight-black;
     color: $black;
+}
+
+h1, #experience {
+    font-family: $heading-font;
+}
+
+h1, .experience3 {
+    font-weight: $heading-weight-black;;
+}
+
+#golden-ticket, #experience {
+    color: $white;
 }
 
 #golden-ticket {
@@ -61,36 +56,28 @@ h1{
     font-family: $special-font;
     font-weight: $special-weight;
     font-size: $special-desktop-size;
-    color: $white;
 }
 
 #experience {
     display: inline-block;
     top: 50vh;
     right: 1%;
+}
 
-    font-family: $heading-font;
-    color: $white;
+.experience1, .experience2 {
+    font-weight: $heading-weight-regular;
+}
+
+.experience2, .experience3 {
+    font-size: $h6-desktop-size;
 }
 
 .experience1 {
-    font-weight: $heading-weight-regular;
     font-size: $h5-desktop-size;
-    padding-bottom: 8px;
 }
 
 .experience2 {
     width: 90%;
-    font-weight: $heading-weight-regular;
-    font-size: $h6-desktop-size;
-    padding: 8px 0px;
-}
-
-
-.experience3 {
-    font-weight: $heading-weight-black;
-    font-size: $h6-desktop-size;
-    padding: 8px 0px;
 }
 
 #hero-button {
