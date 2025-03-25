@@ -18,5 +18,5 @@ import AkkordionComponent from "../components/AccordionComponent.vue";
 </template>
 
 <style scoped lang="scss">
-@import '../css/projects.scss'
+@use '../css/projects.scss';
 </style>

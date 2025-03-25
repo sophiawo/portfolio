@@ -1,4 +1,5 @@
 @use './config' as *;
+@use './shared';
 
 #emailSection, #emailSectionContent {
     display: flex;

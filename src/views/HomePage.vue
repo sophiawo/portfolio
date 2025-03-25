@@ -33,5 +33,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@import '../css/home.scss'
+@use '../css/home.scss';
 </style>

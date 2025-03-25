@@ -16,5 +16,5 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@import '../css/contact.scss'
+@use '../css/contact.scss';
 </style>
