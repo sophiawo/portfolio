@@ -18,10 +18,11 @@ button {
     border: none;
     cursor: pointer;
     min-width: 50px;
+    transition: font-weight 0.3s ease-in-out;
+    min-width: 70px;
 
     &:hover {
         font-weight: $heading-weight-black;
-        transition: font-weight 0.3s ease-in-out,
     }
 
     &.active {
