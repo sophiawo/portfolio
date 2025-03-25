@@ -2,49 +2,30 @@
 
 #footer-puffer{
     height: 38.1vh;
-    width: 100%;
     background-color: $white;
 }
 
 #footer {
     background-color: $dark-green;
     height: 38.1vh;
-    width: 100%;
-    
 }
-
-#first-footer, #sitemap-footer, #contact-footer {
-    display:flex;
-}
-
-#sitemap-footer, #contact-footer {
-    flex-direction: column;
-}
-
 
 #first-footer {
-    justify-content: center;
-    align-items: center;
     margin-left: 2.2vw;
 }
 
-#logo-footer {
+#logo-footer, #name-footer, #sitemap-footer a, .contact-line a {
     font-size: $h6-desktop-size;
 }
 
-#name-footer {
-    font-size: $h6-desktop-size;
-
-    a {
-        color: $white;
-    }
+#name-footer a {
+    color: $white;
 }
 
 #sitemap-footer a {
     margin: 1.5vh 0px;
     font-family: $heading-font;
     font-weight: $heading-weight-regular;
-    font-size: $h6-desktop-size;
     color: $white;
 }
 
@@ -52,28 +33,20 @@
     margin-right: 2.2vw;
 }
 
-.contact-line {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    a {
-        text-decoration: none;
-        margin: 1.5vh 0px;
-        font-family: $heading-font;
-        font-weight: $heading-weight-regular;
-        font-size: $h6-desktop-size;
-        color: $white;
+.contact-line a {
+    text-decoration: none;
+    margin: 1.5vh 0px;
+    font-family: $heading-font;
+    font-weight: $heading-weight-regular;
+    color: $white;
     
-        &:hover {
-            text-decoration: underline;
-            text-decoration-color: $white;
-        }
+    &:hover {
+        text-decoration: underline;
+        text-decoration-color: $white;
     }
 }
 
 .contact-icon {
-    display: flex;
     color: $white;
     font-size: $h6-desktop-size;
     margin-right: 1vw;
