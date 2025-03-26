@@ -25,18 +25,18 @@
 </script>
 
 <template>
-    <div class="home-segment" id="graphic-design">
-        <div class="leftside-gd">
+    <div class="home-segment justify-content-between align-items-center d-flex" id="graphic-design">
+        <div class="leftside-gd d-flex flex-column justify-content-center w-45">
             <h3 class="segment-heading" id="heading-graphic-design">{{ $t("common.graphicDesignCaps") }}</h3>
             <p class="design-text, segment-text"> {{ $t('homepage.graphicDesignShort') }} </p>
             <p class="design-text, segment-text"> {{ $t('homepage.graphicDesignMore') }} </p>
-            <div class="segment-button-flexbox">
+            <div class="d-flex justify-content-center">
                 <div class="segment-button">
                     <MyButton class="segment-button-white" @click="$router.push({ path: '/projects', hash: '#graphic-design-accordion'})" :buttonTextKey="'homepage.graphicDesignButton'" />
                 </div>           
             </div>
         </div>
-        <div class="segment-picture-side">
+        <div class="d-flex flex-row align-items-center">
             <LightboxImage :imageClass="theaterClass" :image="theater1" :altText="theater1Alt" />
             <LightboxImage :imageClass="theaterClass" :image="theater2" :altText="theater2Alt" />
         </div>
