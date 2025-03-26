@@ -1,15 +1,7 @@
 @use './config' as *;
 @use './shared';
 
-#emailSection, #emailSectionContent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#emailSection {
-    width: 100%;
-    height: 8.5vh;
-    background-color: $dark-green;
-    margin-bottom: 8.8vh;
+* {
+    margin: 0;
+    padding: 0;
 }

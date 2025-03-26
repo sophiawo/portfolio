@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div id="language-switcher">
+    <div class="d-flex">
         <button @click="changeLanguage('en')"
         :class ="{ active: $i18n.locale === 'en'}"
         >ENG</button>
