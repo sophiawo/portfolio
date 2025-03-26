@@ -1,5 +1,5 @@
 <template>
-    <button class="custom-button">{{ $t(buttonTextKey) }}</button>
+    <button class="custom-button text-center">{{ $t(buttonTextKey) }}</button>
 </template>
 
 <script>
