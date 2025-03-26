@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="image-container">
+    <div class="image-container d-inline-block overflow-hidden">
       <img :src="image" :class="imageClass" :alt="altText" @click="openLightbox" />
     </div>
 
     <transition name="fade" @before-enter="beforeEnter" @enter="enter" @leave="leave">
-      <div v-if="isLightboxOpen" class="lightbox" role="dialog" aria-modal="true" aria-label="Bildanzeige" @click="closeLightbox">
-        <button class="close-btn" @click="closeLightbox" aria-label="Close">
+      <div v-if="isLightboxOpen" class="lightbox position-fixed d-flex justify-content-center align-items-center z-10" role="dialog" aria-modal="true" aria-label="Bildanzeige" @click="closeLightbox">
+        <button class="close-btn d-flex align-items-center justify-content-center position-absolute border-0" @click="closeLightbox" aria-label="Close">
           <span class="material-symbols-outlined" id="close-icon">close</span>
         </button>
         <img :src="image" alt="Vergrößertes Bild" />
