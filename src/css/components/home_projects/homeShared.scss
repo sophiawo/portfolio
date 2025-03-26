@@ -13,10 +13,7 @@
 }
 
 .home-segment {
-    justify-content: space-between;
-    align-items: center;
     height: 72vh;
-    display: flex;
 }
 
 .segment-heading {
@@ -25,23 +22,12 @@
     font-weight: $heading-weight-black;
 }
 
-.segment-picture-side {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .segment-text {
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
     font-weight: $paragraph-weight;
     line-height: 3.4vh;
     margin-top: 5.1vh;
-}
-
-.segment-button-flexbox {
-    display: flex;
-    justify-content: center;
 }
 
 .segment-button {
@@ -53,7 +39,6 @@
     background-color: $white;
     border-color: $white;
     color: $black;
-    align-self: center;
     transition: color 0.3s ease-in-out;
     
 
@@ -68,7 +53,6 @@
     background-color: $black;
     border-color: $black;
     color: $white;
-    align-self: center;
     transition: color 0.3s ease-in-out;
 
     &:hover, &:focus {

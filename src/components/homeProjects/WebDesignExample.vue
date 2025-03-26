@@ -21,10 +21,10 @@
 </script>
 
 <template>
-    <div class="home-segment" id="webdesign-example1">
+    <div class="home-segment justify-content-center align-items-center d-flex" id="webdesign-example1">
         <LightboxImage :imageClass="webClass" :image="webImg1" :alt="webImg1Alt" />
     </div>
-    <div class="home-segment" id="webdesign-example2">
+    <div class="home-segment justify-content-center align-items-center d-flex" id="webdesign-example2">
         <LightboxImage :imageClass="webClass" :image="webImg2" :alt="webImg2Alt" />
     </div>
 </template>

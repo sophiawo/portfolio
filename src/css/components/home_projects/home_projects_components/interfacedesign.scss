@@ -16,17 +16,10 @@
 }
 
 .rightside-id {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
     width: 45%;
     color: $black;
 }
 
-#heading-interface {
-    color: $black;
-}
-
-.interface-text {
+.rightside-id, #heading-interface, .interface-text {
     color: $black;
 }
