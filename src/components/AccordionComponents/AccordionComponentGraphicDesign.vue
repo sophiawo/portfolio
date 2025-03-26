@@ -35,18 +35,18 @@ import LightboxImage from '../LightboxImage.vue';
 </script>
 
 <template>
-<div class="item">
-  <button class="header-accordion" id="graphic-design-accordion">
+<div class="item d-flex align-items-start justify-content-center flex-column">
+  <button class="header-accordion d-flex justify-content-between flex-row align-items-center border-0 bg-transparent" id="graphic-design-accordion">
     <h3>{{ $t("common.graphicDesignCaps") }}</h3>
     <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
   </button>
-    <div class="content-accordion">
+    <div class="content-accordion d-none">
 
       <div class="projects-container">
 
       <h4>{{ $t("projects.graphicdesign.twelveAngryMen") }}</h4>
         
-        <div class="content-flexbox">
+        <div class="d-flex align-items-center justify-content-center">
           <div class="content-text-container">
             <p>{{ $t("projects.graphicdesign.tamtext1") }}</p>
             <p>{{ $t("projects.graphicdesign.tamtext2") }}</p>
@@ -91,17 +91,17 @@ import LightboxImage from '../LightboxImage.vue';
 
       <div class="projects-container">
       <h4>{{ $t("projects.graphicdesign.communicatingDoors") }}</h4>
-        <div class="content-flexbox">
+        <div class="d-flex align-items-center justify-content-center">
           <figure class="reverse-figure">
             <LightboxImage :imageClass="gdImgClassBig" :image="communicating_doors1" :altText="communicating_doors1Alt" />
             <figcaption> three parted poster design by Carina Huber</figcaption>
           </figure>
           <div class="content-text-container">
             <p>{{ $t("projects.graphicdesign.cdtext1") }}</p>
-            <div id="cdtext2">
-              <p>{{ $t("projects.graphicdesign.cdtext2_part1") }}</p>
-              <a href="https://www.instagram.com/cleopatra_mueller/?igsh=ajhmZWhobDE3bDFI#">{{ $t("projects.graphicdesign.cdtext2Link") }}</a>
-              <p>{{ $t("projects.graphicdesign.cdtext2_part2") }}</p>
+            <div class="d-inline">
+              <p class="d-inline">{{ $t("projects.graphicdesign.cdtext2_part1") }}</p>
+              <a class="d-inline" href="https://www.instagram.com/cleopatra_mueller/?igsh=ajhmZWhobDE3bDFI#">{{ $t("projects.graphicdesign.cdtext2Link") }}</a>
+              <p class="d-inline">{{ $t("projects.graphicdesign.cdtext2_part2") }}</p>
             </div>
           </div>
         </div>

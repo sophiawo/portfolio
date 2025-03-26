@@ -14,12 +14,6 @@
     height: auto;
 }
 
-.content-flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .content-text-container {
     max-width: 80%;
 }
@@ -37,12 +31,4 @@ figure {
 .reverse-figure {
     margin: 1vw 0vw;
     margin-right: 2.1vw;
-}
-
-#cdtext2 {
-    display: inline;
-
-    p, a{
-        display: inline;
-    }
 }

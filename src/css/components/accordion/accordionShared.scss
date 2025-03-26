@@ -1,13 +1,8 @@
 @use '../../config' as *;
 
 .item {
-    width: 100%;
     min-height: 8.8vh;
     background-color: $light-green;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
   
     &:nth-child(even){
     background-color: $dark-green;
@@ -19,16 +14,11 @@
 }
 
 .header-accordion {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
     font-family: $heading-font;
-    border: none;
-    background-color: transparent;
     color: $black; 
 }
+
+.item, .header-accordion { width: 100%; }
 
 h3 {
     font-family: $heading-font;

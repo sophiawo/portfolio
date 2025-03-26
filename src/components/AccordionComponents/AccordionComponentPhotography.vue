@@ -5,8 +5,8 @@
 </script>
 
 <template>
-<div class="item">
-      <button class="header-accordion" id="photography-accordion">
+<div class="item d-flex align-items-start justify-content-center flex-column">
+      <button class="header-accordion d-flex justify-content-between flex-row align-items-center border-0 bg-transparent" id="photography-accordion">
         <h3>{{ $t("common.photographyCaps") }}</h3>
         <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
       </button>
