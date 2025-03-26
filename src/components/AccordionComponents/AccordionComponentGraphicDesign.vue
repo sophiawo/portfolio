@@ -40,7 +40,7 @@ import LightboxImage from '../LightboxImage.vue';
     <h3>{{ $t("common.graphicDesignCaps") }}</h3>
     <span class="material-symbols-outlined arrow-icon">keyboard_arrow_right</span>
   </button>
-    <div class="content-accordion d-none">
+    <div class="content-accordion">
 
       <div class="projects-container">
 
