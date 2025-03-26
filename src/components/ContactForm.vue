@@ -10,10 +10,11 @@ export default {
 </script>
 
 <template>
-    <div class="contact-form-container" 
+    <div class="contact-form-container d-flex flex-column text-center" 
         role="form" 
         aria-babelledby="form-title">
         <form id="contact-form" 
+            class="d-flex flex-column"
             aria-describedby="form-descpription required-text"
             aria-labelledby="form-title"
             action="https://formsubmit.co/sophia.m.wonka@gmail.com"
@@ -21,12 +22,12 @@ export default {
             <h3 id="form-title">{{ $t("contact.formTitle") }}</h3>
             <p id="form-description"> {{ $t("contact.formDescription") }} </p>
             
-            <div id="contact-first-line">
+            <div class="d-flex flex-row justify-content-between">
 
                 <!--name input field-->
-                <div class="input-section" id="name-section">
-                    <label for="name"> {{ $t("contact.nameLabel") }} </label>
-                    <div class="input-container">
+                <div class="input-section d-flex flex-column" id="name-section">
+                    <label class="text-start" for="name"> {{ $t("contact.nameLabel") }} </label>
+                    <div class="input-container position-relative d-inline-block">
                         <input type="text" 
                             id="name" 
                             name="name" 
@@ -49,9 +50,9 @@ export default {
                 </div>
 
                 <!--email input field-->
-                <div class="input-section" id="email-section">
-                    <label for="email"> {{ $t("contact.emailLabel") }}</label>
-                    <div class="input-container">
+                <div class="input-section d-flex flex-column" id="email-section">
+                    <label class="text-start" for="email"> {{ $t("contact.emailLabel") }}</label>
+                    <div class="input-container position-relative d-inline-block">
                         <input type="email" 
                             id="email" 
                             name="email" 
@@ -74,8 +75,8 @@ export default {
             </div>
 
             <!--message text field-->
-            <div class="input-section" id="text-section">
-                <label for="message"> {{ $t("contact.messageLabel") }} </label>
+            <div class="input-section d-flex flex-column" id="text-section">
+                <label class="text-start" for="message"> {{ $t("contact.messageLabel") }} </label>
                 <textarea @input="autoGrow" 
                     id="message" 
                     name="message" 
@@ -84,13 +85,14 @@ export default {
                     aria-label="message" 
                     :placeholder="$t('contact.messagePlaceholder')"></textarea>
             </div>
-            <div id="contact-last-line">
+
+            <div id="contact-last-line" class="d-flex flex-row justify-content-between align-items-center">
                 <MyButton id="contact-send-button" 
                     class="segment-button-black" 
                     type="submit" 
                     aria-label="send" 
                     :buttonTextKey="'contact.sendButton'"/>
-                <p id="required-text"> {{ $t("contact.requiredText") }}</p>
+                <p class="align-self-center"> {{ $t("contact.requiredText") }}</p>
             </div>
         </form>
     </div>

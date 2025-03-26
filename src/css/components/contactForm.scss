@@ -10,16 +10,11 @@
 .contact-form-container {
     background-color: $light-green;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     padding: 4.2vw 0;
 }
 
 #contact-form {
-    display: flex;
     margin: 0 auto;
-    flex-direction: column;
     width: 45%;
     font-family: $paragraph-font;
     font-size: $paragraph-desktop-size;
@@ -34,23 +29,14 @@
     margin-bottom: 2.1vw;
 }
 
-#contact-first-line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .input-section {
     min-height: 50px;
-    display: flex;
-    flex-direction: column;
     width: 100%;
     margin: 1.5vw 0;
 }
 
 label {
     color: $black;
-    text-align: left;
     margin-bottom: 1vw;
     font-weight: 700;
 }
@@ -90,19 +76,11 @@ textarea {
 
 #contact-last-line {
     margin-top: 1vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 #contact-send-button {
     min-width: 40%;
     padding: 20px 40px;
-}
-
-#required-text {
-    align-self: center;
 }
 
 #name-section {
@@ -122,8 +100,6 @@ textarea {
 
 .input-container {
     width: 100%;
-    position: relative;
-    display: inline-block;
 }
 
 .contact-invalid-icon {
