@@ -66,7 +66,7 @@ import LightboxImage from '../LightboxImage.vue';
             <figcaption> {{ $t("projects.graphicdesign.tam2under") }} </figcaption>
           </figure>
         </div>
-        <div class="content-flexbox">
+        <div class="d-flex justify-content-center">
           <figure>
             <LightboxImage :imageClass="gdImgClass" :image="posterEntwurf1" :altText="posterEntwurf1Alt" />
             <figcaption> {{ $t("projects.graphicdesign.tam3under") }} </figcaption>
@@ -100,7 +100,7 @@ import LightboxImage from '../LightboxImage.vue';
             <p>{{ $t("projects.graphicdesign.cdtext1") }}</p>
             <div class="d-inline">
               <p class="d-inline">{{ $t("projects.graphicdesign.cdtext2_part1") }}</p>
-              <a class="d-inline" href="https://www.instagram.com/cleopatra_mueller/?igsh=ajhmZWhobDE3bDFI#">{{ $t("projects.graphicdesign.cdtext2Link") }}</a>
+              <a class="d-inline custom-link" href="https://www.instagram.com/cleopatra_mueller/?igsh=ajhmZWhobDE3bDFI#">{{ $t("projects.graphicdesign.cdtext2Link") }}<i class="bi bi-box-arrow-up-right"></i></a>
               <p class="d-inline">{{ $t("projects.graphicdesign.cdtext2_part2") }}</p>
             </div>
           </div>
