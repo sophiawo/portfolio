@@ -47,4 +47,8 @@ h3 {
 
 .custom-link {
     color:  #003366;
+
+    &:hover {
+        color: #0055AA;
+    }
 }
