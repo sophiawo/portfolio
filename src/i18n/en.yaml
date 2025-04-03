@@ -124,14 +124,24 @@ projects:
       "Sadly I was absent for the next production and the shows in January 2025 because I was 
       studying abroard in Norway. But this didn't stop me to still contribute something to the 
       group."
-    cdtext2_part1:
+    cdtext2:
       "The theater group has two designers - Carina Huber (klick the following Link to visite her 
-      Instagram profile: "
-    cdtext2Link: "Carina Huber's Instagram profile "
-    cdtext2_part2:
-      "and me - and for this production we split up the design tasks between us 
+      Instagram profile: [Link to <a href='https://www.instagram.com/cleopatra_mueller/?igsh=ajhmZWhobDE3bDFl#'>Link</a>)
+      and me - and for this production we split up the design tasks between us 
       two. Carina took care of the poster and the flyers while I designed the programm booklet and 
       the free tickets."
+    cdtext3:
+      "But first let's get some information about the play: Nearing death Reece Wells wants to set the record
+      straight about the misdoings of him and his business partner and friend Julian Goodman. Not only that, but
+      in order to safe their business Julian killed both of Reeces wifes! When Reece realises this, he decides
+      to write a confession. But this confession needs to be signed by two witnesses. Since he lives in a hotel
+      under constant surveilance from Julian, he calls in for a dominatrix - Poopay. One thing leads to another 
+      and Poopay is caught up in a confusing time travel in which she has to save not only herself, but also 
+      Reeces two wifes from the homicidal Julian."
+    cdtext4:
+      "At the beginning of the production it wasn't clear who would design what, so I also made some drafts."
+
+    cd1under: "three parted poster design by Carina Huber"
 
 contact:
   formTitle: "CONTACT FORM"
